@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h4,h3,label,p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.white{
+    color: white;
+}
+.black{
+    color: black;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    height: 65vh;
+    width: 25vw;
+    background-image: linear-gradient(180deg, rgb(119,119,246), rgb(163,57,231));
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.formcontainer{
+    display: flex;
+    align-items: end;
+    align-self: flex-start;
+    padding: 0%;
+    
+}
+
+input{
+    align-self: self-start;
+    border: none;
+    color: white;
+    background-color: transparent;
+    border-bottom: white 3px solid;
+    width: 100%;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+    color: black;
+    /* animation: mymove 5 infinite; */
+    border-bottom: black 3px solid;
+    background-color: transparent;
+}
+
+/* @keyframes mymove {
+    from {border-bottom: white 3px solid;}
+    to {border-bottom: black 3px solid;}
+} */
+
+button{
+    width: 50%;
+    height: 10%;
+    border-radius: 100px;
+    
+}
+
+#loginlogo{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 30%;
+}
+
+.stdlogo{
+    width: 25px;
+    height: 25px;
+
+}
+
+

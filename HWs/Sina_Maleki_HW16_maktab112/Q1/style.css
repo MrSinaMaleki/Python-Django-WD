@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,p,.btn{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    text-align: center;
+}
+
+.bk1{
+    background-color: rgb(51, 51, 51);
+
+    display: flex;
+    justify-content: center;
+}
+
+.bk2{
+    background-color: rgb(234, 234, 234);
+
+    display: flex;
+    justify-content: center;
+}
+
+.bk3{
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.section1{
+
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto;
+    place-items: center;
+
+    padding: 10vh;
+}
+
+.white{
+    color: white;
+}
+
+
+/* Why doesn't it work!!! */
+/* .btn{
+    width: 10%;
+    height: 80%;
+    font-size: 95%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15px;
+    padding: 10vh;
+} */
+
+.btn{
+    width: 15%;
+    height: 110%;
+    font-size: 95%;
+    color: white;
+    padding: 10px;
+    background-color: rgb(51, 51, 51);
+    border: 1px solid white;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color: rgb(51, 51, 51);
+}
+
+
+.section2{
+    width: 50%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    grid-gap: 20px;
+    grid-template-columns: auto auto;
+    padding: 25px;
+    
+    
+}
+
+#h2sec2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+.section3{
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    margin: 30px;
+}
+
+.card{
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto;
+    grid-gap: 15px;
+    
+}
+
+.section4{
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+}
+
+
+.footer{
+    /* width: auto;
+    height: auto; */
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footeritem{
+
+    background-color: rgb(38, 144, 212);
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto;
+    grid-gap: 15px;
+}
+
+.footertext{
+    padding: 10px;
+    text-align: center;
+}
+
+
