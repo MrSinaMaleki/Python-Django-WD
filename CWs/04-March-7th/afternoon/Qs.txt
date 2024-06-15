@@ -1,0 +1,40 @@
+بازی سنگ کاغذ قیچی
+برنامه ای برای این بازی بنویسید به طوریکه کاربر با کامپیوتر بازی کند
+بازی دارای سه حالت برد و باخت مساوی است که براساس ورودی سیستم و کاربر مشخص میشود
+سنگ(r) کاغذ(p) و  قیچی (s) داریم
+با استفاده از تابع choice ، سیستم  از بین سه مورد یکی را انتخاب می کند
+سپس کاربر ورودی خود را وارد کند
+حالا از بین حالات ممکنه مشخص شود شما برنده شده اید یا بزنده یا مساوی شده است
+دست بازی در سه راند برگزار شود و هرکس 2 بار برنده شد، به عنوان بنده بازی مشخص شود
+سپس از کاربر بپرسید مجددا میخواهد بازی کند یا ن اگر خواست بازی کند بازی از سر گرفته شود.
+سپس نتیجه نهایی که کاربر یا سیستم چند دست بازی برده اند را در قالب یک دیکشنری ذخیره و با استفاده از pprint  نمایش دهد
+
+مثال
+system => r
+user => p
+user win and user:1 system:0
+system => s
+user => p
+user win and user:1 system:1
+system =>r
+user =>r
+draw and user:1 and system:1
+system => s
+user => r
+system win and user:2 system:1
+the user won the game
+
+
+------------------------------------------------------------
+While the popularity of cheques as a payment method has diminished in recent years.
+some companies still issue them to pay employees or vendors. The amount being
+paid normally appears on a cheque twice, with one occurrence written using digits.
+and the other occurrence written using English words. Repeating the amount in two
+different forms makes it much more difficult for an unscrupulous employee or vendor
+to modify the amount on the cheque before depositing it.
+In this exercise, your task is to create a function that takes an integer between 0 and
+999 as its only parameter, and returns a string containing the English words for that
+number. For example, if the parameter to the function is 142 then your function should
+return "one hundred forty two". Use one or more dictionaries to implement
+your solution rather than large if/elif/else constructs. Include a main program that
+reads an integer from the user and displays its value in English words.
