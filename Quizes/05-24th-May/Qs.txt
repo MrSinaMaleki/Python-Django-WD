@@ -1,0 +1,198 @@
+1-یک یوزر جدید در لینوکس بسازید
+
+.سپس پسورد انرا عوض کنی
+
+
+sudo useradd sina  ---> ایجاد یوزر جدید
+
+sudo passwd sina ---< تغییر رمز  یوزر جدید
+
+2-ک فایل از اسامی افراد فرض کنید که دارید.
+
+حالا اسامی انهایی که ابتدای اسمشان با a اغاز میشود را فیلتر و نمایش دهید(نمایش با  cat )
+
+cat names.txt | grep "a" ---> هر کلمه ای که داخلش "a"دارد را نمایش میدهد
+
+
+3-ک فایل با اسامی را فرض کنید که دارید.
+
+حالا اسامی که شامل ni میشوند را فیلتر کنید و نمایش دهید (نمایش باcat )
+
+cat names.txt | grep "ni" ---> هر کلمه ای که شامل این حروف میشود را نمایش میدهد
+
+
+
+
+
+یک فایل بسازید حاوی اطلاعات زیر
+
+maktab
+
+python
+
+django
+
+flask
+
+linux
+
+git
+
+حالا کلماتی که درون ان ها حرف او دارند را فیلتر کنید و درون فایل جدیدی به نام new.txt بریزید
+
+فایل دوم را بسازید با محتویات
+
+maktab
+
+js
+
+nodejs
+
+mongodb
+
+reactjs
+
+webpack
+
+hook
+
+حالا کلماتی که شمال حرف او میشوند را فیلتر کنید وبه فایل new.txtاضافه کنید
+
+فایل new.txt باید شامل
+
+python
+
+django
+
+nodejs
+
+mongodb
+
+hook
+
+باشد.
+
+
+cd Desktop
+
+
+
+touch firstfile.txt
+
+sudo nano firstfile.txt    or  vim firstfile.txt
+
+(write some words and save them)
+
+
+
+cat firstfile.txt | grep "o" > new.txt
+
+
+
+touch secondfile.txt
+
+sudo nano secondfile.txt   or  vim secondfile.txt
+
+(write some words and save them)
+
+
+
+
+
+cat firstfile.txt | grep "o" >> new.txt
+
+
+> (write)
+
+>> (overwrite)
+
+
+
+5-یک فایل به نام maktab بسازید
+
+ابتدا تمام سطح دسترسی را از ان فایل بگیرید
+
+سپس دسترسی خواندن نوشتن و اجرا را به کاربر بدهید
+
+بدهید other  و فقط دسترسی خواندن را گروه بدهید و فقط دسترسی اجرا را ب
+
+
+owner, group, other
+
+0 ---> ---
+
+1 ---> --x
+
+7 ---> rwx
+
+4 ---> r--
+
+
+
+cd Desktop
+
+touch test.txt
+
+chmode 000 file.txt
+
+chmode 741 file.txt
+
+
+6-فایل jafar.tar.gz را از حالت فشرده خارج کنید
+
+Answer text Question 6
+tar -xzf jafar.tar.gz
+
+7-ک اسکریپت ایجاد کنید که یک کلمه خاص را در یک فایل جستجو می کند و موارد تکرار آن را می شمارد
+
+Answer text Question 7
+#!/bin/bash
+
+echo "What word are you looking for? "
+read word
+
+echo "Please enter the name of your file. "
+read filename
+
+result = $(grep -c "$word" "$filename")
+echo result
+
+سکریپتی بنویسید که یک اسم دایرکتوری / فایل را بگیرد و وضعیت انرا مشخص کند
+
+یعنی این اسم یا دایرکتوری هست یا فایلی هست که قابل خواندن/نوشتن یا اجرا کردن دارد
+
+و اگر اسم وارده دایرکتوری یا فایل نبود پیام مناسب برگرداند.
+
+
+
+Answer text Question 8
+#!/bin/bash
+read file
+if [ -d "$file" ] ; then
+    echo "$file is a directory";
+else
+    if [ -f "$file" ]; then
+        echo "$file is a file";
+        if [[ -x "$file" ]]
+        then
+            echo "File '$file' is executable"
+        else
+            echo "File '$file' is not executable"
+        fi
+    else
+        echo "$file is not valid(not a file or directory)";
+        exit 1
+    fi
+fi
+
+9-
+یت را در یک خط ساده و خودمانی توضیح دهید.
+
+گیتهاب را نیز توضیح دهید.
+
+چرا به گیتهاب نیاز داریم؟
+
+Answer text Question 9
+گیت هاب یک سیستم اشتراک کده که وقتی میخوایم کد هامون رو به اشتراک بزاریم میتونیم ازش استفاده کنیم مثل یک فضای مجازی برای توسعه دهنده هاست اما تنها کاربردش اشتراک کد به صورت شخصی نیست بلکه قابلیت ها زیادی داره برای اینکه بتونیم به صورت ریموت و دورا دور روی کد گروهی خودمون کار کنیم و جلو بریم
+
+با نظار و استفاده درست از این ابزار میتونیم هم زمان چندین نفر رو درگیر یک بروژه کنیم و نتیجه بگیریم/

@@ -1,0 +1,114 @@
+What is the main purpose of inheritance in Python?
+
+Question 1Select one:
+
+a.
+To restrict access to specific methods within a class.
+
+
+b.
+To define a single point of entry for a program's execution.
+
+
+c.
+To define global variables accessible from all parts of the program.
+
+
+d.
+To create new classes that reuse functionality and attributes from existing classes.
+
+
+
+
+Consider a Car class with a kilometer attribute. How can you achieve data hiding for kilometer using Python's built-in mechanisms?
+
+Question 2Select one:
+
+a.
+Prefix kilometer with a double underscore (__kilometer)
+
+
+b.
+Prefix kilometer with a single underscore (_kilometer).
+
+
+c.
+Declare kilometer as a global variable within the Car class.
+
+
+
+4-
+Imagine you have a class Shape with a method to calculate area. You want a subclass Circle that inherits from Shape but overrides the area calculation method for circles. Which concept allows this?
+Question 4Select one:
+
+a.
+Data hiding (focuses on attribute access)
+
+
+b.
+Polymorphism (ability to use objects of different classes interchangeably)
+
+
+c.
+Multiple inheritance (not the primary use case here)
+
+
+d.
+Encapsulation (combines data and behavior)
+
+
+5-
+کلاس زیر را به گونه ای طراحی کنید که :
+
+>>> C.__mro__
+
+(<class '__main__.C'>, <class '__main__.A'>, <class '__main__.B'>, <class 'object'>)
+
+کد حتما ارسال شود
+
+
+6-
+
+how would you change the default representation of this object to "Person(name=<name>, age=<age>)"
+
+
+
+class Person: def __init__(self, name, age):
+
+    self.name = name
+
+    self.age = age
+
+>>>p1 = Person('habib', 34)
+
+>>>print(p1)
+
+Person(name=habib, age=34)
+
+
+7-در یک بازی که شامل سربازان شمشیرزن، سربازان تیرانداز و تیراندازان تیرهای آتشین است، چه زمانی از ارث بری و چه زمانی از کامپوزیشن استفاده می کنید؟ استدلال خود را با جزئیات و روش های مربوطه توضیح دهید.
+
+راهنمایی های کلی:
+
+۱. استدلال خود را به طور واضح و مختصر توضیح دهید. توضیح دهید که چرا ارث بری یا کامپوزیشن را برای هر بخش از طراحی انتخاب می کنید و مزایا و معایب هر رویکرد را بیان کنید.
+
+۲. اگر برای توضیح بیشتر به کد نیاز دارید، می توانید قطعات کوتاهی از کد را ارائه دهید. با این حال، کد باید به وضوح با توضیحات شما مرتبط باشد و بر روی مفاهیم کلیدی تمرکز داشته باشد، نه بر روی جزئیات پیچیده پیاده سازی.
+
+
+
+8-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
