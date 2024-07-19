@@ -7,7 +7,6 @@ class Oop:
         return super().__new__(cls)
 
 
-
 test = Oop("sina", {"last_name": "Maleki"})
-print(Oop.items_list)
+print(test.items_list)
 print(type(test))

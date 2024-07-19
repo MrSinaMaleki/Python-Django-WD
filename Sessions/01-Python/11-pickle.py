@@ -2,6 +2,7 @@
 # Pickling :)
 import pickle
 
+
 class Shape:
     shapes = []
 
@@ -29,7 +30,6 @@ class Shape:
     #     with open(file_path, 'w') as _:
     #         for shape in cls.shapes:
     #             print(shape.name, shape.x, shape.y, file=_)
-
 
 # triangle = Shape("Triangle", 10, 100)
 # circle = Shape("Circle", 1, 2)

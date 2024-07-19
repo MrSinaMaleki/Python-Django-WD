@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" class="__variable_46c312">
+<head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <link rel="preload" as="image" href="https://static.virgool.io/images/app/logo.webp?width=50" fetchPriority="high"/>
+    <link rel="stylesheet" href="/_next/static/css/fe74b941cd7ee332.css" data-precedence="next"/>
+    <link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-05aab365b6e1d6c7.js"/>
+    <script src="/_next/static/chunks/52774a7f-54e1f68241fea71a.js" async=""></script>
+    <script src="/_next/static/chunks/fd9d1056-be080c666ceaa37a.js" async=""></script>
+    <script src="/_next/static/chunks/7400-0140dc7b394cd6d7.js" async=""></script>
+    <script src="/_next/static/chunks/main-app-d8e45fe1b7664ad2.js" async=""></script>
+    <script src="/_next/static/chunks/e37a0b60-a0d01cadfa9b38a3.js" async=""></script>
+    <script src="/_next/static/chunks/7138-e0068763e012bce9.js" async=""></script>
+    <script src="/_next/static/chunks/4592-c4d9277400a63720.js" async=""></script>
+    <script src="/_next/static/chunks/6882-1c71d5d12a415d88.js" async=""></script>
+    <script src="/_next/static/chunks/6648-493ecde0321592ac.js" async=""></script>
+    <script src="/_next/static/chunks/6088-c954a34e0930759b.js" async=""></script>
+    <script src="/_next/static/chunks/4125-3242b8f9cacf52ed.js" async=""></script>
+    <script src="/_next/static/chunks/2489-e65d48b9f2724f00.js" async=""></script>
+    <script src="/_next/static/chunks/app/username-route-group/%5Busername%5D/(single)/%5Bslug%5D/layout-79654036a3aa728b.js"
+            async=""></script>
+    <script src="/_next/static/chunks/1618-c917d0d060f9b713.js" async=""></script>
+    <script src="/_next/static/chunks/2126-d01276605df81b2d.js" async=""></script>
+    <script src="/_next/static/chunks/5840-04b4f5f6f314139d.js" async=""></script>
+    <script src="/_next/static/chunks/9361-e273ad5029a50819.js" async=""></script>
+    <script src="/_next/static/chunks/8789-507d776c2ff84b06.js" async=""></script>
+    <script src="/_next/static/chunks/7770-9245aae856b176c9.js" async=""></script>
+    <script src="/_next/static/chunks/9956-082cc5c2ccbac411.js" async=""></script>
+    <script src="/_next/static/chunks/8239-e24e71555de4c95c.js" async=""></script>
+    <script src="/_next/static/chunks/8199-a02df3a0d58bb2cd.js" async=""></script>
+    <script src="/_next/static/chunks/app/username-route-group/%5Busername%5D/(profile)/layout-a79a27ca8896d2d5.js"
+            async=""></script>
+    <script src="/_next/static/chunks/app/@sidebar/error-3540cdd247272d8c.js" async=""></script>
+    <script src="/_next/static/chunks/app/username-route-group/%5Busername%5D/(single)/%5Bslug%5D/loading-80e640b929ebcafa.js"
+            async=""></script>
+    <script src="/_next/static/chunks/13b76428-19ae288db77b99b1.js" async=""></script>
+    <script src="/_next/static/chunks/2162-e13a38495da70857.js" async=""></script>
+    <script src="/_next/static/chunks/app/layout-79ec52664c90e320.js" async=""></script>
+    <script src="/_next/static/chunks/4673-e1598f7d7fb9b453.js" async=""></script>
+    <script src="/_next/static/chunks/980-765f5c940740c1b7.js" async=""></script>
+    <script src="/_next/static/chunks/5804-556d5bceab7208cd.js" async=""></script>
+    <script src="/_next/static/chunks/5748-acfbad9625414956.js" async=""></script>
+    <script src="/_next/static/chunks/8410-b35f5e2c1ebb5b0a.js" async=""></script>
+    <script src="/_next/static/chunks/app/username-route-group/%5Busername%5D/(single)/%5Bslug%5D/page-ac83fa16c36420b8.js"
+            async=""></script>
+    <script src="/_next/static/chunks/app/error-f66ccbd204bd8d87.js" async=""></script>
+    <script src="/_next/static/chunks/app/template-2522c706eb7e7960.js" async=""></script>
+    <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-V1LLR5NWKW" as="script"/>
+    <meta name="theme-color" content="#107ABE"/>
+    <title>فریمورک جنگو ( پایتون ) را از کجا یاد بگیرم - ویرگول</title>
+    <meta name="description" content="فریمورک Django را از کجا یاد بگیریم"/>
+    <meta name="author" content="mahsa.tabrizi92"/>
+    <link rel="author" href="https://virgool.io/@mahsa.tabrizi92"/>
+    <meta name="author" content="mahsa.tabrizi92"/>
+    <link rel="manifest" href="https://static.virgool.io/manifest.json" crossorigin="use-credentials"/>
+    <meta name="referrer" content="strict-origin-when-cross-origin"/>
+    <meta name="robots" content="index, follow, max-image-preview:large"/>
+    <link rel="canonical"
+          href="https://virgool.io/@mahsa.tabrizi92/%D9%81%D8%B1%DB%8C%D9%85%D9%88%D8%B1%DA%A9-%D8%AC%D9%86%DA%AF%D9%88-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%B1%D8%A7-%D8%A7%D8%B2-%DA%A9%D8%AC%D8%A7-%DB%8C%D8%A7%D8%AF-%D8%A8%DA%AF%DB%8C%D8%B1%D9%85-fm9tswkgfrob"/>
+    <meta property="og:title" content="فریمورک جنگو ( پایتون ) را از کجا یاد بگیرم - ویرگول"/>
+    <meta property="og:description" content="فریمورک Django را از کجا یاد بگیریم"/>
+    <meta property="og:url" content="https://virgool.io"/>
+    <meta property="og:site_name" content="ویرگول"/>
+    <meta property="og:locale" content="fa"/>
+    <meta property="og:image"
+          content="https://files.virgool.io/upload/users/126163/posts/fm9tswkgfrob/oci7in7zeyqy.jpg"/>
+    <meta property="og:type" content="article"/>
+    <meta property="article:published_time" content="2024-06-05T23:41:33.000000Z"/>
+    <meta property="article:modified_time" content="2024-06-05T23:44:15.000000Z"/>
+    <meta property="article:author" content="mahsa.tabrizi92"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@virgool_io"/>
+    <meta name="twitter:title" content="فریمورک جنگو ( پایتون ) را از کجا یاد بگیرم - ویرگول"/>
+    <meta name="twitter:description" content="فریمورک Django را از کجا یاد بگیریم"/>
+    <meta name="twitter:image"
+          content="https://files.virgool.io/upload/users/126163/posts/fm9tswkgfrob/oci7in7zeyqy.jpg"/>
+    <link rel="shortcut icon" href="https://static.virgool.io/images/favicon.png"/>
+    <link rel="icon" href="https://static.virgool.io/images/favicon.png?width=32"/>
+    <link rel="apple-touch-icon" href="https://static.virgool.io/images/favicon.png"/>
+    <meta name="next-size-adjust"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta property="og:url"
+          content="https://virgool.io/@mahsa.tabrizi92/%D9%81%D8%B1%DB%8C%D9%85%D9%88%D8%B1%DA%A9-%D8%AC%D9%86%DA%AF%D9%88-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%B1%D8%A7-%D8%A7%D8%B2-%DA%A9%D8%AC%D8%A7-%DB%8C%D8%A7%D8%AF-%D8%A8%DA%AF%DB%8C%D8%B1%D9%85-fm9tswkgfrob"/>
+    <link rel="apple-touch-startup-image" href="https://files.virgool.io/static/images/pwa/ios/launch-640x1136.png"
+          media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"/>
+    <link rel="apple-touch-startup-image" href="https://files.virgool.io/static/images/pwa/ios/launch-750x1294.png"
+          media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"/>
+    <link rel="apple-touch-startup-image" href="https://files.virgool.io/static/images/pwa/ios/launch-1242x2148.png"
+          media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"/>
+    <link rel="apple-touch-startup-image" href="https://files.virgool.io/static/images/pwa/ios/launch-1125x2436.png"
+          media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"/>
+    <link rel="apple-touch-startup-image" href="https://files.virgool.io/static/images/pwa/ios/launch-1536x2048.png"
+          media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)"/>
+    <link rel="apple-touch-startup-image" href="https://files.virgool.io/static/images/pwa/ios/launch-1668x2224.png"
+          media="(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)"/>
+    <link rel="apple-touch-startup-image" href="https://files.virgool.io/static/images/pwa/ios/launch-2048x2732.png"
+          media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)"/>
+    <script src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" noModule=""></script>
+</head>
+<body>
+<style data-emotion="css 9na2j3">.css-9na2j3 {
+    background-color: var(--body-bg);
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    -webkit-transition: top 0.5s ease-in-out;
+    transition: top 0.5s ease-in-out;
+    z-index: 300;
+}</style>
+<div class="py-2 is-divider is-divider-bottom css-9na2j3">
+    <style data-emotion="css wvrw4u">.css-wvrw4u {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    @media (min-width: 1200px) {
+        .css-wvrw4u {
+            max-width: 1440px;
+        }
+    }</style>
+    <div class="is-flex is-justify-content-space-between px-3 css-wvrw4u">
+        <style data-emotion="css ih3whd">.css-ih3whd {
+            min-width: 200px;
+        }</style>
+        <div class="is-flex is-align-items-center is-justify-content-flex-start css-ih3whd"><a style="height:50px"
+                                                                                               title="ویرگول"
+                                                                                               href="/"><img
+                alt="ویرگول" fetchPriority="high" width="50" height="50" decoding="async" data-nimg="1"
+                style="color:transparent" src="https://static.virgool.io/images/app/logo.webp?width=50"/></a></div>
+        <!--$!-->
+        <template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template>
+        <style data-emotion="css 3eqqe2">.css-3eqqe2 {
+            display: block;
+            background-color: var(--color-gray-100);
+            height: 12px;
+            border-radius: 100px;
+        }</style>
+        <span class="mt-1 css-3eqqe2" style="width:350px;height:40px"></span><!--/$-->
+        <div class="is-flex is-align-items-center is-justify-content-flex-end css-ih3whd"><!--$!-->
+            <template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template>
+            <span class="css-3eqqe2" style="width:40px;height:40px"></span><!--/$--><a
+                    class="ml-3 fs-3 color-gray-900 mr-5" href="/login">ورود</a>
+            <style data-emotion="css 1m18l5i">.css-1m18l5i {
+                display: -webkit-inline-box;
+                display: -webkit-inline-flex;
+                display: -ms-inline-flexbox;
+                display: inline-flex;
+                -webkit-align-items: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                font-weight: bold;
+                line-height: 1.5;
+                text-align: center;
+                -webkit-text-decoration: none;
+                text-decoration: none;
+                vertical-align: middle;
+                cursor: pointer;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                white-space: nowrap;
+                background-color: transparent;
+                border-width: 2px;
+                border-style: solid;
+                border-color: transparent;
+                border-radius: 30px;
+                -webkit-transition: all 0.15s ease-in-out;
+                transition: all 0.15s ease-in-out;
+                min-width: 74px;
+                color: var(--color-gray-900);
+                background-color: var(--color-blue);
+                color: var(--color-white);
+                border-color: var(--color-blue);
+                height: 32px;
+                padding: 4px 16px;
+                font-size: 14px;
+            }
+
+            .css-1m18l5i:disabled, .css-1m18l5i.disabled {
+                pointer-events: none;
+                opacity: 0.6;
+            }
+
+            .css-1m18l5i svg {
+                fill: var(--color-white);
+            }
+
+            .css-1m18l5i:not(.no-hover):hover {
+                background-color: var(--color-blue-100);
+                border-color: var(--color-blue-100);
+            }
+
+            .css-1m18l5i:disabled, .css-1m18l5i.disabled {
+                background-color: var(--color-blue);
+                border-color: var(--color-blue);
+                color: var(--color-white);
+                fill: var(--color-white);
+            }
+
+            .css-1m18l5i svg {
+                width: 16px;
+                height: 16px;
+            }
+
+            .css-1m18l5i .btn-icon-loading {
+                width: 16px !important;
+                height: 16px !important;
+            }</style>
+            <a href="/register" id="js-register-button" class="direction-rtl css-1m18l5i"><span>ثبت نام</span></a>
+            <!--$!-->
+            <template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template><!--/$--></div>
+    </div>
+</div>
+<section>
+    <style data-emotion="css wvrw4u">.css-wvrw4u {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    @media (min-width: 1200px) {
+        .css-wvrw4u {
+            max-width: 1440px;
+        }
+    }</style>
+    <div class=" css-wvrw4u">
+        <style data-emotion="css gfnsw1">.css-gfnsw1 {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-flex-flow: row wrap;
+            -webkit-flex-flow: row wrap;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            min-width: 0;
+        }
+
+        .css-gfnsw1::before, .css-gfnsw1::after {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+        }</style>
+        <div class="is-justify-content-space-evenly css-gfnsw1">
+            <style data-emotion="css ebbqrt">.css-ebbqrt {
+                position: relative;
+                max-width: 100%;
+                min-height: 1px;
+                display: block;
+                display: block;
+                -webkit-flex: 0 0 100%;
+                -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+                max-width: 100%;
+                -webkit-order: inherit;
+                -ms-flex-order: inherit;
+                order: inherit;
+            }
+
+            @media (min-width: 992px) {
+                .css-ebbqrt {
+                    display: block;
+                    -webkit-flex: 0 0 58.333333333333336%;
+                    -ms-flex: 0 0 58.333333333333336%;
+                    flex: 0 0 58.333333333333336%;
+                    max-width: 58.333333333333336%;
+                }
+            }</style>
+            <div class="vrgl-col pt-7 px-4 css-ebbqrt"><!--$--><!--$!-->
+                <template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template><!--/$-->
+                <div class="is-flex is-justify-content-space-between is-align-items-center mb-4">
+                    <div class="is-flex is-align-items-center">
+                        <div class="is-flex is-align-items-center fs-2 undefined"><a title="مهسا تبریزی"
+                                                                                     href="https://virgool.io/@mahsa.tabrizi92">
+                            <div style="width:48px;height:48px"
+                                 class="avatar_vrgl-avatar__uXWwe bg-color-gray-100 avatar_vrgl-avatar-circle__1vD2_ undefined">
+                                <img alt="مهسا تبریزی" loading="lazy" width="48" height="48" decoding="async"
+                                     data-nimg="1" style="color:transparent"
+                                     src="https://files.virgool.io/upload/users/126163/avatar/e311oI.png?width=96&amp;height=96"/>
+                            </div>
+                        </a>
+                            <div class="is-flex is-flex-direction-column mr-3">
+                                <style data-emotion="css 1moo69e">.css-1moo69e {
+                                    color: var(--color-gray-700);
+                                    word-break: break-word;
+                                }
+
+                                .css-1moo69e.vrgl-typography-ellipsis-single-line {
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                }
+
+                                .css-1moo69e.vrgl-typography-single-line {
+                                    white-space: nowrap;
+                                }
+
+                                .css-1moo69e.vrgl-typography-ellipsis {
+                                    display: inline-block;
+                                    max-width: 100%;
+                                }
+
+                                .css-1moo69e.vrgl-typography-ellipsis-multiple-line {
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 3;
+                                    -webkit-box-orient: vertical;
+                                    overflow: hidden;
+                                }</style>
+                                <style data-emotion="css mrsawl">.css-mrsawl {
+                                    color: var(--color-gray-700);
+                                    word-break: break-word;
+                                    color: var(--color-gray-700);
+                                    word-break: break-word;
+                                }
+
+                                .css-mrsawl.vrgl-typography-ellipsis-single-line {
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                }
+
+                                .css-mrsawl.vrgl-typography-single-line {
+                                    white-space: nowrap;
+                                }
+
+                                .css-mrsawl.vrgl-typography-ellipsis {
+                                    display: inline-block;
+                                    max-width: 100%;
+                                }
+
+                                .css-mrsawl.vrgl-typography-ellipsis-multiple-line {
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 3;
+                                    -webkit-box-orient: vertical;
+                                    overflow: hidden;
+                                }
+
+                                .css-mrsawl.vrgl-typography-ellipsis-single-line {
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                }
+
+                                .css-mrsawl.vrgl-typography-single-line {
+                                    white-space: nowrap;
+                                }
+
+                                .css-mrsawl.vrgl-typography-ellipsis {
+                                    display: inline-block;
+                                    max-width: 100%;
+                                }
+
+                                .css-mrsawl.vrgl-typography-ellipsis-multiple-line {
+                                    display: -webkit-box;
+                                    -webkit-line-clamp: 3;
+                                    -webkit-box-orient: vertical;
+                                    overflow: hidden;
+                                }</style>
+                                <span class="direction-rtl vrgl-typography-ellipsis vrgl-typography-single-line vrgl-typography-ellipsis-single-line color-gray-900 fs-4 css-mrsawl"
+                                      style="max-width:180px"><a title="مهسا تبریزی"
+                                                                 href="https://virgool.io/@mahsa.tabrizi92">مهسا تبریزی</a></span>
+                                <div class="is-flex is-align-items-center is-justify-content-flex-start color-gray-700">
+                                    <span><div
+                                            class="is-flex is-align-items-center is-justify-content-flex-start fs-2 color-gray-700"><span>خواندن
+                                        <!-- -->۲<!-- --> دقیقه</span><span
+                                            class="fs-3 color-gray-700 ff-default fw-400 mx-1">·</span><span>۱ ماه پیش</span></div></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="is-flex is-align-items-center">
+                        <div>
+                            <style data-emotion="css xeyokl">.css-xeyokl {
+                                display: -webkit-inline-box;
+                                display: -webkit-inline-flex;
+                                display: -ms-inline-flexbox;
+                                display: inline-flex;
+                                -webkit-align-items: center;
+                                -webkit-box-align: center;
+                                -ms-flex-align: center;
+                                align-items: center;
+                                -webkit-box-pack: center;
+                                -ms-flex-pack: center;
+                                -webkit-justify-content: center;
+                                justify-content: center;
+                                font-weight: bold;
+                                line-height: 1.5;
+                                text-align: center;
+                                -webkit-text-decoration: none;
+                                text-decoration: none;
+                                vertical-align: middle;
+                                cursor: pointer;
+                                -webkit-user-select: none;
+                                -moz-user-select: none;
+                                -ms-user-select: none;
+                                user-select: none;
+                                white-space: nowrap;
+                                background-color: transparent;
+                                border-width: 2px;
+                                border-style: solid;
+                                border-color: transparent;
+                                border-radius: 30px;
+                                -webkit-transition: all 0.15s ease-in-out;
+                                transition: all 0.15s ease-in-out;
+                                min-width: 74px;
+                                color: var(--color-gray-900);
+                                font-weight: 400;
+                                height: 32px;
+                                padding: 4px 16px;
+                                font-size: 14px;
+                                font-weight: 400;
+                                min-width: initial;
+                                padding: 0;
+                            }
+
+                            .css-xeyokl:disabled, .css-xeyokl.disabled {
+                                pointer-events: none;
+                                opacity: 0.6;
+                            }
+
+                            .css-xeyokl svg {
+                                width: 16px;
+                                height: 16px;
+                            }
+
+                            .css-xeyokl .btn-icon-loading {
+                                width: 16px !important;
+                                height: 16px !important;
+                            }
+
+                            .css-xeyokl svg {
+                                width: initial;
+                                height: initial;
+                            }</style>
+                            <button type="button" class="direction-rtl ml-2 css-xeyokl"><span><svg viewBox="0 0 18 18"
+                                                                                                   width="20px"
+                                                                                                   height="20px"
+                                                                                                   xmlns="http://www.w3.org/2000/svg"
+                                                                                                   xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                                                   fill="var(--color-gray-700)"><path
+                                    d="M15.85,2.15a3.588,3.588,0,0,0-5.074,0c-.1925.193-2.132,2.111-2.6755,2.6545A4.15349,4.15349,0,0,1,9.972,5.108c.2595-.26,1.784-1.763,1.8915-1.8705a2.05061,2.05061,0,1,1,2.9,2.9L11.204,9.695a2.30853,2.30853,0,0,1-1.686.65,1.97648,1.97648,0,0,1-1.35-.5545,2.07708,2.07708,0,0,1-.6205-.813,1.03342,1.03342,0,0,0-.214.159l-.8175.856a3.57187,3.57187,0,0,0,.613.8365,3.92429,3.92429,0,0,0,5.3385-.219L15.85,7.226a3.587,3.587,0,0,0,.00322-5.07278Z"></path><path
+                                    d="M7.963,12.912c-.26.26-1.75,1.7735-1.8565,1.881a2.05061,2.05061,0,0,1-2.9-2.9L6.8,8.3a2.29,2.29,0,0,1,1.683-.646,2.1,2.1,0,0,1,1.892,1.391,1.03342,1.03342,0,0,0,.214-.159l.867-.8605a3.58269,3.58269,0,0,0-.613-.8365,3.6555,3.6555,0,0,0-5.13.024L2.1195,10.806a3.588,3.588,0,1,0,5.074,5.0745c.193-.193,2.097-2.1215,2.6405-2.665A4.15006,4.15006,0,0,1,7.963,12.912Z"></path></svg></span>
+                            </button>
+                            <button aria-label="linkedin" class="react-share__ShareButton"
+                                    style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
+                                <span href="" component="span" class="direction-rtl ml-2 css-xeyokl"><span><svg
+                                        viewBox="0 0 18 18" width="20px" height="20px"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        fill="var(--color-gray-700)"><path
+                                        d="M13.6328 13.633H11.2621V9.92029C11.2621 9.03498 11.2463 7.89529 10.0291 7.89529C8.79431 7.89529 8.60538 8.85991 8.60538 9.85585V13.6327H6.23475V5.99798H8.51056V7.04135H8.54244C8.77019 6.65192 9.09931 6.33155 9.49474 6.11436C9.89017 5.89718 10.3371 5.79131 10.7879 5.80804C13.1908 5.80804 13.6338 7.38854 13.6338 9.44466L13.6328 13.633ZM3.55975 4.95441C2.79994 4.95454 2.18387 4.33866 2.18375 3.57885C2.18362 2.81904 2.79944 2.20298 3.55925 2.20285C4.31906 2.20266 4.93512 2.81854 4.93525 3.57835C4.93532 3.94323 4.79044 4.29319 4.53248 4.55125C4.27453 4.80931 3.92463 4.95433 3.55975 4.95441ZM4.74512 13.633H2.37194V5.99798H4.74506V13.633L4.74512 13.633ZM14.8146 0.00116449H1.18069C0.536312 -0.00608551 0.007875 0.510102 0 1.15448V14.8453C0.007625 15.49 0.536 16.0067 1.18062 15.9999H14.8146C15.4606 16.0079 15.9911 15.4912 16 14.8453V1.15341C15.9908 0.507789 15.4603 -0.00833551 14.8146 0.000101993"></path></svg></span></span>
+                            </button>
+                            <button aria-label="twitter" class="react-share__ShareButton"
+                                    style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer">
+                                <span href="" component="span" class="direction-rtl ml-2 css-xeyokl"><span><svg
+                                        viewBox="0 0 18 18" width="18px" height="18px"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        fill="var(--color-gray-700)"><path
+                                        d="M10.712 7.789 17.413 0h-1.588l-5.818 6.763L5.36 0H0l7.027 10.227L0 18.395h1.588l6.145 -7.142 4.907 7.142H18L10.712 7.789Zm-2.175 2.528 -0.712 -1.019 -5.665 -8.103h2.439l4.572 6.54 0.712 1.019 5.943 8.501h-2.44l-4.849 -6.937Z"></path></svg></span></span>
+                            </button>
+                        </div>
+                        <div class="is-flex is-align-items-ceenter">
+                            <button type="button" class="direction-rtl mr-3 css-xeyokl"><span><svg viewBox="0 0 18 18"
+                                                                                                   width="20px"
+                                                                                                   height="20px"
+                                                                                                   xmlns="http://www.w3.org/2000/svg"
+                                                                                                   xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                                                   fill="none"
+                                                                                                   stroke="var(--color-gray-700)"><path
+                                    d="M14,1H4A.944.944,0,0,0,3,2V16.46c0,.4.5.7.8.4l5-4.987a.3.3,0,0,1,.4,0l5,4.987a.473.473,0,0,0,.8-.4V2A.944.944,0,0,0,14,1Z"></path></svg></span>
+                            </button><!--$!-->
+                            <template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template><!--/$--></div>
+                    </div>
+                </div><!--$!-->
+                <template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template><!--/$-->
+                <div><h1 class="direction-rtl fs-8 color-gray-900 fw-900 css-mrsawl">فریمورک جنگو ( پایتون ) را از کجا
+                    یاد بگیرم</h1>
+                    <p class="md-block-unstyled direction-rtl">سلام</p>
+                    <p class="md-block-unstyled direction-rtl">من خیلی توی گروه های مختلف میبینم که افراد به دنبال
+                        یادگیری فریمورک جنگو هستند و اکثرا هم سردرگم هستند که دنبال کدام دوره ی آموزشی بروند آیا هزینه
+                        کنند یا از دوره های رایگان استفاده کنند؟</p>
+                    <p class="md-block-unstyled direction-rtl">اول اینکه به زبون ساده بگم جنگو چیه ؟</p>
+                    <h3 class="md-block-header-three direction-rtl">جنگو چیست ؟</h3>
+                    <p class="md-block-unstyled direction-rtl">جنگو یکی از فریمورک های توسعه وب هست که در backend
+                        استفاده میشود. اگر اسم لاراول یا کدایگنایتر را شنیده باشید جنگو هم دقیقا مثل آنهاست ولی تفاوت
+                        جنگو با آنها این است که آن فریمورک ها با زبان برنامه نویسی PHP هستند ولی جنگو با زبان Python
+                        هست.</p>
+                    <figure class="md-block-image">
+                        <div aria-owns="rmiz-modal-" data-rmiz="">
+                            <div data-rmiz-content="not-found" style="visibility:visible"><img
+                                    src="https://files.virgool.io/upload/users/126163/posts/fm9tswkgfrob/oci7in7zeyqy.jpg"
+                                    alt="لوگو فریمورک جنگو" loading="lazy"/></div>
+                        </div>
+                        <figcaption class="md-block-image-caption">لوگو فریمورک جنگو</figcaption>
+                    </figure>
+                    <p class="md-block-unstyled"><br/></p>
+                    <p class="md-block-unstyled direction-rtl">با فریمورک جنگو میتوانید سایت های بسیار پرسرعت و ایمن
+                        بسازید و به نظرم برای پروژه های درست حسابی و قوی بهتره از جنگو استفاده شه</p>
+                    <p class="md-block-unstyled direction-rtl">یه چندتا سوال که همیشه درباره ی <strong
+                            class="md-inline-bold">فریمورک جنگو</strong> شنیدم رو جواب میدم سریع جواب میدم حوصله توضیح
+                        زیاد ندارم چون چیزهای عیان و آشکاری هستن چیز عیان چه حاجب به بیان ؟</p>
+                    <ul class="md-block-unordered-list-item direction-rtl">
+                        <li>آیا <strong class="md-inline-bold">یادگیری جنگو</strong> سخت است ؟ اگه پایتون بلدی نه اگه
+                            پایتون بلد نیستی آره
+                        </li>
+                        <li>پیش نیاز <strong class="md-inline-bold">جنگو </strong>چیه ؟ بلد بودن زبان پایتون</li>
+                        <li>با <strong class="md-inline-bold">فریمورک جنگو</strong> چه نوع سایت هایی میشه ساخت ؟ هر نوع
+                            سایتی ولی بیشتر سایت های که ترافیک خوبی دارن
+                        </li>
+                        <li><strong class="md-inline-bold">فریمورک جنگو</strong> برای کدام قسمت وب استفاده میشود ؟ برای
+                            سمت سرور ( بک اند یا backend )
+                        </li>
+                    </ul>
+                    <p class="md-block-unstyled direction-rtl">خب من به چندین سوال عمومی جواب دادم و شما تقریبا الان
+                        میدونید که Django چیه</p>
+                    <p class="md-block-unstyled direction-rtl">خب برای یادگیری این فریمورک زیبا شما میتونید از دوره ی
+                        آموزش زیر شروع کنید که استاد سام نیکزاد مدرس آن هستند و واقعا تدریس عالی دارند ایشان استاد بنده
+                        بودن و من پایتون - فریمورک فلسک پایتون و فریمورک جنگوو را یاد گرفتم و حتما توصیه میکنم از دوره
+                        های ایشان استفاده کنید :</p>
+                    <p class="md-block-unstyled"><br/></p>
+                    <figure class="md-block-image">
+                        <div aria-owns="rmiz-modal-" data-rmiz="">
+                            <div data-rmiz-content="not-found" style="visibility:visible"><img
+                                    src="https://files.virgool.io/upload/users/126163/posts/fm9tswkgfrob/p1hlmjlg50ke.jpg"
+                                    alt="دوره ی آموزش رایگان django" loading="lazy"/></div>
+                        </div>
+                        <figcaption class="md-block-image-caption">دوره ی آموزش رایگان django</figcaption>
+                    </figure>
+                    <p class="md-block-unstyled"><br/></p>
+                    <p class="md-block-unstyled direction-rtl">برای تماشای این دوره ی آموزشی که صفر تا صد هست به لینک
+                        های زیر مراجعه کنید :</p>
+                    <p class="md-block-unstyled direction-rtl"><a
+                            href="https://l.vrgl.ir/r?ad=1&amp;l=https%3A%2F%2Fwww.aparat.com%2Fplaylist%2F9869582&amp;si=fm9tswkgfrob&amp;st=post&amp;k=RgMOTg1RIzj2gcbxolRgieMagBPUnlnCxh%2FUAupnQIA%3D"
+                            class="md-inline-link" rel="noopener nofollow" target="_blank">پلی لیست کامل این دوره در
+                        سایت آپارات </a></p>
+                    <p class="md-block-unstyled direction-rtl"><a
+                            href="https://l.vrgl.ir/r?ad=1&amp;l=https%3A%2F%2Fyoutube.com%2Fplaylist%3Flist%3DPL9KHRBVQQhJcwhCV6hcooMBpTahRMxvgw%26si%3DwZYl-8yyN8Mv4y4n&amp;si=fm9tswkgfrob&amp;st=post&amp;k=DHaFMvGnBC0wFiu9KRsAs8N4lNrHsGY6F9f%2B2pZksfk%3D"
+                            class="md-inline-link" rel="noopener nofollow" target="_blank">پلی لیست این دوره در
+                        یوتیوب</a></p></div><!--$!-->
+                <template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template><!--/$-->
+                <div class="mt-7">
+                    <div class="mb-4 is-max-width-full is-overflow-hidden">
+                        <style data-emotion="css 1wdmk2g">.css-1wdmk2g {
+                            display: -webkit-inline-box;
+                            display: -webkit-inline-flex;
+                            display: -ms-inline-flexbox;
+                            display: inline-flex;
+                            -webkit-align-items: center;
+                            -webkit-box-align: center;
+                            -ms-flex-align: center;
+                            align-items: center;
+                            -webkit-box-pack: center;
+                            -ms-flex-pack: center;
+                            -webkit-justify-content: center;
+                            justify-content: center;
+                            font-weight: bold;
+                            line-height: 1.5;
+                            text-align: center;
+                            -webkit-text-decoration: none;
+                            text-decoration: none;
+                            vertical-align: middle;
+                            cursor: pointer;
+                            -webkit-user-select: none;
+                            -moz-user-select: none;
+                            -ms-user-select: none;
+                            user-select: none;
+                            white-space: nowrap;
+                            background-color: transparent;
+                            border-width: 2px;
+                            border-style: solid;
+                            border-color: transparent;
+                            border-radius: 30px;
+                            -webkit-transition: all 0.15s ease-in-out;
+                            transition: all 0.15s ease-in-out;
+                            min-width: 74px;
+                            color: var(--color-gray-900);
+                            background-color: var(--color-gray-200);
+                            border-color: transparent;
+                            color: var(--color-gray-700);
+                            height: 32px;
+                            padding: 4px 16px;
+                            font-size: 14px;
+                        }
+
+                        .css-1wdmk2g:disabled, .css-1wdmk2g.disabled {
+                            pointer-events: none;
+                            opacity: 0.6;
+                        }
+
+                        .css-1wdmk2g:not(.no-hover):hover {
+                            background-color: var(--color-gray-200);
+                            color: var(--color-gray-700);
+                        }
+
+                        .css-1wdmk2g:disabled, .css-1wdmk2g.disabled {
+                            background-color: var(--color-gray-200);
+                            color: var(--color-gray-700);
+                            fill: var(--color-gray-700);
+                        }
+
+                        .css-1wdmk2g svg {
+                            width: 16px;
+                            height: 16px;
+                        }
+
+                        .css-1wdmk2g .btn-icon-loading {
+                            width: 16px !important;
+                            height: 16px !important;
+                        }</style>
+                        <a component="[object Object]" style="border-radius:10px"
+                           class="direction-rtl m-1 is-max-width-full is-overflow-hidden css-1wdmk2g"
+                           href="/tag/فریمورک-جنگو"><span>فریمورک جنگو</span></a><a component="[object Object]"
+                                                                                    style="border-radius:10px"
+                                                                                    class="direction-rtl m-1 is-max-width-full is-overflow-hidden css-1wdmk2g"
+                                                                                    href="/tag/django"><span>django</span></a><a
+                            component="[object Object]" style="border-radius:10px"
+                            class="direction-rtl m-1 is-max-width-full is-overflow-hidden css-1wdmk2g" href="/tag/جنگو"><span>جنگو</span></a><a
+                            component="[object Object]" style="border-radius:10px"
+                            class="direction-rtl m-1 is-max-width-full is-overflow-hidden css-1wdmk2g"
+                            href="/tag/پایتون"><span>پایتون</span></a><a component="[object Object]"
+                                                                         style="border-radius:10px"
+                                                                         class="direction-rtl m-1 is-max-width-full is-overflow-hidden css-1wdmk2g"
+                                                                         href="/tag/توسعه-وب"><span>توسعه وب</span></a>
+                    </div>
+                    <div class="is-flex is-align-items-center is-justify-content-space-between pb-2 mb-4 is-divider is-divider-bottom">
+                        <aside class="is-flex is-align-items-center">
+                            <div class="is-inline-flex is-align-items-center">
+                                <button type="button" class="direction-rtl likeEffect_button-like__KCGLP css-xeyokl">
+                                    <span><div class="likeEffect_heart__kePkP"><svg viewBox="0 0 18 18" width="26px"
+                                                                                    height="26px"
+                                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                                    fill="none"
+                                                                                    stroke="var(--color-gray-700)"><path
+                                            d="M12.182,3.2545A4.00649,4.00649,0,0,0,9,5.1635a4.00649,4.00649,0,0,0-3.182-1.909A3.818,3.818,0,0,0,2,7.0725c0,3.646,7,8.273,7,8.273s7-4.578,7-8.273A3.818,3.818,0,0,0,12.182,3.2545Z"></path></svg></div></span>
+                                </button>
+                                <span style="min-width:10px"
+                                      class="fs-3 mr-1 color-gray-700 direction-ltr is-clickable">۳</span></div>
+                            <div class="is-inline-flex is-align-items-center mx-4" data-action-quickcomments="true">
+                                <button type="button" class="direction-rtl css-xeyokl"><span><svg viewBox="0 0 18 18"
+                                                                                                  width="22px"
+                                                                                                  height="22px"
+                                                                                                  xmlns="http://www.w3.org/2000/svg"
+                                                                                                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                                                  fill="none"
+                                                                                                  stroke="var(--color-gray-700)"><path
+                                        d="M3,2A2,2,0,0,0,1,4v7a2,2,0,0,0,2,2H4v4.3965a.25.25,0,0,0,.427.1765L9,13h6a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2Z"></path></svg></span>
+                                </button>
+                                <span class="fs-3 mr-2 color-gray-700 direction-ltr">۰</span></div>
+                        </aside>
+                        <div class="is-flex is-align-items-center">
+                            <div>
+                                <button type="button" class="direction-rtl css-xeyokl"><span><svg viewBox="0 0 18 18"
+                                                                                                  width="21px"
+                                                                                                  height="21px"
+                                                                                                  xmlns="http://www.w3.org/2000/svg"
+                                                                                                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                                                  fill="var(--color-gray-700)"><path
+                                        d="M12.238,3.5825,9,0,5.77,3.5825A.25.25,0,0,0,5.9555,4H8V9.75a.25.25,0,0,0,.25.25h1.5A.25.25,0,0,0,10,9.75V4h2.0525a.25.25,0,0,0,.1855-.4175Z"></path><path
+                                        d="M16.5,5H13V6h3V16H2V6H5V5H1.5a.5.5,0,0,0-.5.5v11a.5.5,0,0,0,.5.5h15a.5.5,0,0,0,.5-.5V5.5A.5.5,0,0,0,16.5,5Z"></path></svg></span>
+                                </button>
+                            </div>
+                            <div class="is-flex is-align-items-ceenter">
+                                <button type="button" class="direction-rtl mr-3 css-xeyokl"><span><svg
+                                        viewBox="0 0 18 18" width="20px" height="20px"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        fill="none" stroke="var(--color-gray-700)"><path
+                                        d="M14,1H4A.944.944,0,0,0,3,2V16.46c0,.4.5.7.8.4l5-4.987a.3.3,0,0,1,.4,0l5,4.987a.473.473,0,0,0,.8-.4V2A.944.944,0,0,0,14,1Z"></path></svg></span>
+                                </button><!--$!-->
+                                <template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template><!--/$--></div>
+                        </div>
+                    </div>
+                </div><!--$!-->
+                <template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template><!--/$--><!--$-->
+                <div class="mt-3">
+                    <div class=" css-gfnsw1" style="margin-left:-30px;margin-right:-30px">
+                        <style data-emotion="css 8ntvee">.css-8ntvee {
+                            position: relative;
+                            max-width: 100%;
+                            min-height: 1px;
+                            display: block;
+                            display: block;
+                            -webkit-flex: 0 0 100%;
+                            -ms-flex: 0 0 100%;
+                            flex: 0 0 100%;
+                            max-width: 100%;
+                            -webkit-order: inherit;
+                            -ms-flex-order: inherit;
+                            order: inherit;
+                        }
+
+                        @media (min-width: 768px) {
+                            .css-8ntvee {
+                                display: block;
+                                -webkit-flex: 0 0 100%;
+                                -ms-flex: 0 0 100%;
+                                flex: 0 0 100%;
+                                max-width: 100%;
+                            }
+                        }</style>
+                        <div class="vrgl-col css-8ntvee" style="padding-left:30px;padding-right:30px">
+                            <div class="is-flex is-justify-content-flex-end py-3">
+                                <div style="flex:1">
+                                    <div class="is-flex is-align-items-center fs-2 fw-600 fs-4"><a title="مهسا تبریزی"
+                                                                                                   href="https://virgool.io/@mahsa.tabrizi92">
+                                        <div class="avatar_vrgl-avatar__uXWwe bg-color-gray-100 avatar_vrgl-avatar-circle__1vD2_ avatar_vrgl-avatar-lg__nMJKk">
+                                            <img alt="مهسا تبریزی" loading="lazy" width="40" height="40"
+                                                 decoding="async" data-nimg="1" style="color:transparent"
+                                                 src="https://files.virgool.io/upload/users/126163/avatar/e311oI.png?width=80&amp;height=80"/>
+                                        </div>
+                                    </a>
+                                        <div class="is-flex is-flex-direction-column mr-3"><span
+                                                class="direction-rtl vrgl-typography-ellipsis vrgl-typography-single-line vrgl-typography-ellipsis-single-line color-gray-900 undefined css-mrsawl"
+                                                style="max-width:180px"><a title="مهسا تبریزی"
+                                                                           href="https://virgool.io/@mahsa.tabrizi92">مهسا تبریزی</a></span>
+                                        </div>
+                                    </div>
+                                    <span class="direction-rtl vrgl-typography-ellipsis vrgl-typography-ellipsis-multiple-line mt-2 fs-2 css-mrsawl"
+                                          style="-webkit-line-clamp:2">عکاس و عاشق طراحی وب و برنامه نویسی</span></div>
+                                <style data-emotion="css 1m18l5i">.css-1m18l5i {
+                                    display: -webkit-inline-box;
+                                    display: -webkit-inline-flex;
+                                    display: -ms-inline-flexbox;
+                                    display: inline-flex;
+                                    -webkit-align-items: center;
+                                    -webkit-box-align: center;
+                                    -ms-flex-align: center;
+                                    align-items: center;
+                                    -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                    -webkit-justify-content: center;
+                                    justify-content: center;
+                                    font-weight: bold;
+                                    line-height: 1.5;
+                                    text-align: center;
+                                    -webkit-text-decoration: none;
+                                    text-decoration: none;
+                                    vertical-align: middle;
+                                    cursor: pointer;
+                                    -webkit-user-select: none;
+                                    -moz-user-select: none;
+                                    -ms-user-select: none;
+                                    user-select: none;
+                                    white-space: nowrap;
+                                    background-color: transparent;
+                                    border-width: 2px;
+                                    border-style: solid;
+                                    border-color: transparent;
+                                    border-radius: 30px;
+                                    -webkit-transition: all 0.15s ease-in-out;
+                                    transition: all 0.15s ease-in-out;
+                                    min-width: 74px;
+                                    color: var(--color-gray-900);
+                                    background-color: var(--color-blue);
+                                    color: var(--color-white);
+                                    border-color: var(--color-blue);
+                                    height: 32px;
+                                    padding: 4px 16px;
+                                    font-size: 14px;
+                                }
+
+                                .css-1m18l5i:disabled, .css-1m18l5i.disabled {
+                                    pointer-events: none;
+                                    opacity: 0.6;
+                                }
+
+                                .css-1m18l5i svg {
+                                    fill: var(--color-white);
+                                }
+
+                                .css-1m18l5i:not(.no-hover):hover {
+                                    background-color: var(--color-blue-100);
+                                    border-color: var(--color-blue-100);
+                                }
+
+                                .css-1m18l5i:disabled, .css-1m18l5i.disabled {
+                                    background-color: var(--color-blue);
+                                    border-color: var(--color-blue);
+                                    color: var(--color-white);
+                                    fill: var(--color-white);
+                                }
+
+                                .css-1m18l5i svg {
+                                    width: 16px;
+                                    height: 16px;
+                                }
+
+                                .css-1m18l5i .btn-icon-loading {
+                                    width: 16px !important;
+                                    height: 16px !important;
+                                }</style>
+                                <button type="button" class="no-hover direction-rtl css-1m18l5i">
+                                    <style data-emotion="css 19xgyuo">.css-19xgyuo {
+                                        display: -webkit-inline-box;
+                                        display: -webkit-inline-flex;
+                                        display: -ms-inline-flexbox;
+                                        display: inline-flex;
+                                        -webkit-align-items: center;
+                                        -webkit-box-align: center;
+                                        -ms-flex-align: center;
+                                        align-items: center;
+                                        gap: 8px;
+                                        -webkit-order: 1;
+                                        -ms-flex-order: 1;
+                                        order: 1;
+                                        margin-right: 8px;
+                                    }</style>
+                                    <span class=" css-19xgyuo"><svg viewBox="0 0 18 18" width="18px" height="18px"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                    fill="var(--color-gray-700)"><path
+                                            d="M14.5,8H10V3.5A.5.5,0,0,0,9.5,3h-1a.5.5,0,0,0-.5.5V8H3.5a.5.5,0,0,0-.5.5v1a.5.5,0,0,0,.5.5H8v4.5a.5.5,0,0,0,.5.5h1a.5.5,0,0,0,.5-.5V10h4.5a.5.5,0,0,0,.5-.5v-1A.5.5,0,0,0,14.5,8Z"></path></svg></span><span>دنبال کنید</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="is-divider is-divider-top py-5">
+                        <section class="">
+                            <div class="fs-4 fw-600 text-center mb-3">شاید از این پست‌ها خوشتان بیاید</div>
+                            <style data-emotion="css or5hou">.css-or5hou {
+                                display: block;
+                                background-color: var(--color-gray-100);
+                                height: 12px;
+                                margin-top: 0;
+                                margin-bottom: 0;
+                                height: auto;
+                                transform-origin: 0 55%;
+                                -webkit-transform: scale(1, 0.60);
+                                -moz-transform: scale(1, 0.60);
+                                -ms-transform: scale(1, 0.60);
+                                transform: scale(1, 0.60);
+                            }
+
+                            .css-or5hou:empty:before {
+                                content: "\00a0";
+                            }</style>
+                            <span class="css-or5hou" style="width:100%;height:240px;transform:initial"></span></section>
+                    </div>
+                    <div class="is-divider is-divider-top">
+                        <div class="pb-8">
+                            <div></div>
+                        </div>
+                    </div>
+                </div><!--/$--><!--/$--></div>
+            <style data-emotion="css pt55uu">.css-pt55uu {
+                min-height: 100vh;
+            }</style>
+            <style data-emotion="css 1knra4y">.css-1knra4y {
+                position: relative;
+                max-width: 100%;
+                min-height: 1px;
+                display: block;
+                display: block;
+                -webkit-flex: 0 0 100%;
+                -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+                max-width: 100%;
+                -webkit-order: inherit;
+                -ms-flex-order: inherit;
+                order: inherit;
+                min-height: 100vh;
+            }
+
+            @media (min-width: 992px) {
+                .css-1knra4y {
+                    display: block;
+                    -webkit-flex: 0 0 25%;
+                    -ms-flex: 0 0 25%;
+                    flex: 0 0 25%;
+                    max-width: 25%;
+                }
+            }</style>
+            <div class="vrgl-col is-divider is-divider-right pr-4 pt-7 css-1knra4y"><!--$--><!--$-->
+                <div class="is-position-sticky" style="top:20px">
+                    <aside class="is-flex is-flex-direction-column" style="max-width:70%"><a title="مهسا تبریزی"
+                                                                                             href="https://virgool.io/@mahsa.tabrizi92">
+                        <div style="width:72px;height:72px"
+                             class="avatar_vrgl-avatar__uXWwe bg-color-gray-100 avatar_vrgl-avatar-circle__1vD2_ undefined mb-2">
+                            <img alt="مهسا تبریزی" loading="lazy" width="72" height="72" decoding="async" data-nimg="1"
+                                 style="color:transparent"
+                                 src="https://files.virgool.io/upload/users/126163/avatar/e311oI.png?width=144&amp;height=144"/>
+                        </div>
+                    </a><span
+                            class="direction-rtl vrgl-typography-ellipsis vrgl-typography-single-line vrgl-typography-ellipsis-single-line mb-2 color-gray-800 fw-bold css-mrsawl"
+                            style="max-width:250px"><a title="مهسا تبریزی" href="https://virgool.io/@mahsa.tabrizi92">مهسا تبریزی</a></span>
+                        <button type="button"
+                                class="direction-rtl color-blue fs-3 mb-2 fw-600 text-right is-block css-xeyokl"><span>۱۸۸
+                            <!-- --> دنبال کننده</span></button>
+                        <span class="direction-rtl vrgl-typography-ellipsis vrgl-typography-ellipsis-multiple-line mb-2 fs-2 css-mrsawl"
+                              style="-webkit-line-clamp:3">عکاس و عاشق طراحی وب و برنامه نویسی</span>
+                        <button type="button" class="no-hover direction-rtl css-1m18l5i"><span class=" css-19xgyuo"><svg
+                                viewBox="0 0 18 18" width="18px" height="18px" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" fill="var(--color-gray-700)"><path
+                                d="M14.5,8H10V3.5A.5.5,0,0,0,9.5,3h-1a.5.5,0,0,0-.5.5V8H3.5a.5.5,0,0,0-.5.5v1a.5.5,0,0,0,.5.5H8v4.5a.5.5,0,0,0,.5.5h1a.5.5,0,0,0,.5-.5V10h4.5a.5.5,0,0,0,.5-.5v-1A.5.5,0,0,0,14.5,8Z"></path></svg></span><span>دنبال کنید</span>
+                        </button>
+                    </aside>
+                </div><!--/$--><!--/$--></div>
+        </div>
+    </div>
+</section><!--$-->
+<style data-emotion="css 1saugbm">.css-1saugbm {
+    z-index: 99999;
+    top: 20px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: fixed;
+    padding: 4px;
+    width: 320px;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}</style>
+<div class="css-1saugbm"></div><!--/$-->
+<div id="app-portal"></div>
+<script src="/_next/static/chunks/webpack-05aab365b6e1d6c7.js" async=""></script>
+<script>(self.__next_f = self.__next_f || []).push([0]);
+self.__next_f.push([2, null])</script>
+<script>self.__next_f.push([1, "1:HL[\"/_next/static/media/457db78de112bdc5-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n2:HL[\"/_next/static/media/49b18f3beed69f32-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n3:HL[\"/_next/static/media/6d9b94e9a374ca8c-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n4:HL[\"/_next/static/media/fed3a3b5b2e48ad8-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n5:HL[\"/_next/static/css/fe74b941cd7ee332.css\",\"style\"]\n"])</script>
+<script>self.__next_f.push([1, "6:I[95751,[],\"\"]\n8:\"$Sreact.suspense\"\n9:I[61481,[\"1866\",\"static/chunks/e37a0b60-a0d01cadfa9b38a3.js\",\"7138\",\"static/chunks/7138-e0068763e012bce9.js\",\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"6648\",\"static/chunks/6648-493ecde0321592ac.js\",\"6088\",\"static/chunks/6088-c954a34e0930759b.js\",\"4125\",\"static/chunks/4125-3242b8f9cacf52ed.js\",\"2489\",\"static/chunks/2489-e65d48b9f2724f00.js\",\"7934\",\"static/chunks/app/username-route-group/%5Busername%5D/(single)/%5Bslug%5D/layout-79654036a3aa728b.js\"],\"PreloadCss\"]\na:I[47687,[\"1866\",\"static/chunks/e37a0b60-a0d01cadfa9b38a3.js\",\"7138\",\"static/chunks/7138-e0068763e012bce9.js\",\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"6648\",\"static/chunks/6648-493ecde0321592ac.js\",\"1618\",\"static/chunks/1618-c917d0d060f9b713.js\",\"2126\",\"static/chunks/2126-d01276605df81b2d.js\",\"5840\",\"static/chunks/5840-04b4f5f6f314139d.js\",\"6088\",\"static/chunks/6088-c954a34e0930759b.js\",\"9361\",\"static/chunks/9361-e273ad5029a50819.js\",\"4125\",\"static/chunks/4125-3242b8f9cacf52ed.js\",\"8789\",\"static/chunks/8789-507d776c2ff84b06.js\",\"7770\",\"static/chunks/7770-9245aae856b176c9.js\",\"9956\",\"static/chunks/9956-082cc5c2ccbac411.js\",\"2489\",\"static/chunks/2489-e65d48b9f2724f00.js\",\"8239\",\"static/chunks/8239-e24e71555de4c95c.js\",\"8199\",\"static/chunks/8199-a02df3a0d58bb2cd.js\",\"6033\",\"static/chunks/app/username-route-group/%5Busername%5D/(profile)/layout-a79a27ca8896d2d5.js\"],\"default\"]\nb:I[37330,[\"1866\",\"static/chunks/e37a0b60-a0d01cadfa9b38a3.js\",\"7138\",\"static/chunks/7138-e0068763e012bce9.js\",\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"6648\",\"static/chunks/6648-493ecde0321592ac.js\",\"1618\",\"static/chunks/1618-c917d0d060f9b713.js\",\"2126\",\"static/chunks/2126-d01276605df81b2d.js\",\"5840\",\"static/chunks/5840-04b4f5f6f314139d.js\",\"6088\",\"static/chunks/6088-c954a34e0930759b.js\",\"9361\",\"static/chunks/9361-e273ad5029a50819.js\",\"4125\",\"static/chunks/4125-3242b8f9cacf52ed.js\","])</script>
+<script>self.__next_f.push([1, "\"8789\",\"static/chunks/8789-507d776c2ff84b06.js\",\"7770\",\"static/chunks/7770-9245aae856b176c9.js\",\"9956\",\"static/chunks/9956-082cc5c2ccbac411.js\",\"2489\",\"static/chunks/2489-e65d48b9f2724f00.js\",\"8239\",\"static/chunks/8239-e24e71555de4c95c.js\",\"8199\",\"static/chunks/8199-a02df3a0d58bb2cd.js\",\"6033\",\"static/chunks/app/username-route-group/%5Busername%5D/(profile)/layout-a79a27ca8896d2d5.js\"],\"default\"]\nc:I[39275,[],\"\"]\nd:I[61343,[],\"\"]\ne:I[47330,[\"7138\",\"static/chunks/7138-e0068763e012bce9.js\",\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"717\",\"static/chunks/app/@sidebar/error-3540cdd247272d8c.js\"],\"default\"]\n12:I[97078,[\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"3235\",\"static/chunks/app/username-route-group/%5Busername%5D/(single)/%5Bslug%5D/loading-80e640b929ebcafa.js\"],\"default\"]\n14:I[16585,[],\"NotFoundBoundary\"]\n1b:I[76130,[],\"\"]\n13:[\"username\",\"mahsa.tabrizi92\",\"d\"]\n17:{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/fe74b941cd7ee332.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}\n16:[\"$\",\"link\",\"0\",\"$17\"]\n15:[\"$16\"]\n1c:[]\n"])</script>
+<script>self.__next_f.push([1, "0:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/fe74b941cd7ee332.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"$L6\",null,{\"buildId\":\"2qWUtbKzI8uLUpUTkEIjX\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/@mahsa.tabrizi92/%D9%81%D8%B1%DB%8C%D9%85%D9%88%D8%B1%DA%A9-%D8%AC%D9%86%DA%AF%D9%88-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%B1%D8%A7-%D8%A7%D8%B2-%DA%A9%D8%AC%D8%A7-%DB%8C%D8%A7%D8%AF-%D8%A8%DA%AF%DB%8C%D8%B1%D9%85-fm9tswkgfrob\",\"initialTree\":[\"\",{\"sidebar\":[\"children\",{\"children\":[\"[...catchAll]\",{\"children\":[\"__PAGE__\",{}]}]}],\"children\":[\"username-route-group\",{\"children\":[[\"username\",\"mahsa.tabrizi92\",\"d\"],{\"children\":[\"(single)\",{\"children\":[[\"slug\",\"%D9%81%D8%B1%DB%8C%D9%85%D9%88%D8%B1%DA%A9-%D8%AC%D9%86%DA%AF%D9%88-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%B1%D8%A7-%D8%A7%D8%B2-%DA%A9%D8%AC%D8%A7-%DB%8C%D8%A7%D8%AF-%D8%A8%DA%AF%DB%8C%D8%B1%D9%85-fm9tswkgfrob\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]}]}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"sidebar\":[\"children\",{\"children\":[\"[...catchAll]\",{\"children\":[\"__PAGE__\",{},[[\"$L7\",[\"$\",\"$8\",null,{\"fallback\":null,\"children\":[[\"$\",\"$L9\",null,{\"moduleIds\":[\"app/@sidebar/[...catchAll]/page.tsx -\u003e ../EmptySidebar\"]}],[[\"$\",\"$La\",null,{}],[\"$\",\"$Lb\",null,{}]]]}]],null],null]},[\"$\",\"$Lc\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"sidebar\",\"children\",\"children\",\"[...catchAll]\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$Ld\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$Lc\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"sidebar\",\"children\",\"children\"],\"error\":\"$e\",\"errorStyles\":[],\"errorScripts\":[],\"template\":[\"$\",\"$Ld\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null],\"children\":[\"username-route-group\",{\"children\":[[\"username\",\"mahsa.tabrizi92\",\"d\"],{\"children\":[\"(single)\",{\"children\":[[\"slug\",\"%D9%81%D8%B1%DB%8C%D9%85%D9%88%D8%B1%DA%A9-%D8%AC%D9%86%DA%AF%D9%88-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%B1%D8%A7-%D8%A7%D8%B2-%DA%A9%D8%AC%D8%A7-%DB%8C%D8%A7%D8%AF-%D8%A8%DA%AF%DB%8C%D8%B1%D9%85-fm9tswkgfrob\",\"d\"],{\"children\":[\"__PAGE__\",{},[[\"$f\",\"$L10\"],null],null]},[\"$L11\",null],[[\"$\",\"$L12\",null,{}],[],[]]]},[\"$\",\"$Lc\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"username-route-group\",\"children\",\"$13\",\"children\",\"(single)\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$Ld\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$Lc\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"username-route-group\",\"children\",\"$13\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$Ld\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$Lc\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"username-route-group\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$Ld\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[[\"$\",\"$L14\",null,{\"notFound\":[\"$15\",\"$L18\"],\"children\":\"$L19\"}],null],null],\"couldBeIntercepted\":false,\"initialHead\":[false,\"$L1a\"],\"globalErrorComponent\":\"$1b\",\"missingSlots\":\"$W1c\"}]]\n"])</script>
+<script>self.__next_f.push([1, "1d:I[63755,[\"1866\",\"static/chunks/e37a0b60-a0d01cadfa9b38a3.js\",\"6990\",\"static/chunks/13b76428-19ae288db77b99b1.js\",\"7138\",\"static/chunks/7138-e0068763e012bce9.js\",\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"6648\",\"static/chunks/6648-493ecde0321592ac.js\",\"6088\",\"static/chunks/6088-c954a34e0930759b.js\",\"2162\",\"static/chunks/2162-e13a38495da70857.js\",\"4125\",\"static/chunks/4125-3242b8f9cacf52ed.js\",\"8789\",\"static/chunks/8789-507d776c2ff84b06.js\",\"2489\",\"static/chunks/2489-e65d48b9f2724f00.js\",\"3185\",\"static/chunks/app/layout-79ec52664c90e320.js\"],\"default\"]\n1e:I[31725,[\"1866\",\"static/chunks/e37a0b60-a0d01cadfa9b38a3.js\",\"6990\",\"static/chunks/13b76428-19ae288db77b99b1.js\",\"7138\",\"static/chunks/7138-e0068763e012bce9.js\",\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"6648\",\"static/chunks/6648-493ecde0321592ac.js\",\"6088\",\"static/chunks/6088-c954a34e0930759b.js\",\"2162\",\"static/chunks/2162-e13a38495da70857.js\",\"4125\",\"static/chunks/4125-3242b8f9cacf52ed.js\",\"8789\",\"static/chunks/8789-507d776c2ff84b06.js\",\"2489\",\"static/chunks/2489-e65d48b9f2724f00.js\",\"3185\",\"static/chunks/app/layout-79ec52664c90e320.js\"],\"LanguageProvider\"]\n1f:I[70779,[\"1866\",\"static/chunks/e37a0b60-a0d01cadfa9b38a3.js\",\"6990\",\"static/chunks/13b76428-19ae288db77b99b1.js\",\"7138\",\"static/chunks/7138-e0068763e012bce9.js\",\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"6648\",\"static/chunks/6648-493ecde0321592ac.js\",\"6088\",\"static/chunks/6088-c954a34e0930759b.js\",\"2162\",\"static/chunks/2162-e13a38495da70857.js\",\"4125\",\"static/chunks/4125-3242b8f9cacf52ed.js\",\"8789\",\"static/chunks/8789-507d776c2ff84b06.js\",\"2489\",\"static/chunks/2489-e65d48b9f2724f00.js\",\"3185\",\"static/chunks/app/layout-79ec52664c90e320.js\"],\"Providers\"]\n20:I[56833,[\"1866\",\"static/chunks/e37a0b60-a0d01cadfa9b38a3.js\",\"6990\",\"static/chunks/13b76428-19ae288db77b99b1.js\",\"7138\",\"static/chunks/7138-e0068763e012bce9.js\",\"4592\",\"static/chunks/4592-c4d9"])</script>
+<script>self.__next_f.push([1, "277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"6648\",\"static/chunks/6648-493ecde0321592ac.js\",\"6088\",\"static/chunks/6088-c954a34e0930759b.js\",\"2162\",\"static/chunks/2162-e13a38495da70857.js\",\"4125\",\"static/chunks/4125-3242b8f9cacf52ed.js\",\"8789\",\"static/chunks/8789-507d776c2ff84b06.js\",\"2489\",\"static/chunks/2489-e65d48b9f2724f00.js\",\"3185\",\"static/chunks/app/layout-79ec52664c90e320.js\"],\"default\"]\n21:I[78239,[\"1866\",\"static/chunks/e37a0b60-a0d01cadfa9b38a3.js\",\"7138\",\"static/chunks/7138-e0068763e012bce9.js\",\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"6648\",\"static/chunks/6648-493ecde0321592ac.js\",\"1618\",\"static/chunks/1618-c917d0d060f9b713.js\",\"2126\",\"static/chunks/2126-d01276605df81b2d.js\",\"5840\",\"static/chunks/5840-04b4f5f6f314139d.js\",\"6088\",\"static/chunks/6088-c954a34e0930759b.js\",\"9361\",\"static/chunks/9361-e273ad5029a50819.js\",\"4125\",\"static/chunks/4125-3242b8f9cacf52ed.js\",\"8789\",\"static/chunks/8789-507d776c2ff84b06.js\",\"7770\",\"static/chunks/7770-9245aae856b176c9.js\",\"9956\",\"static/chunks/9956-082cc5c2ccbac411.js\",\"2489\",\"static/chunks/2489-e65d48b9f2724f00.js\",\"8239\",\"static/chunks/8239-e24e71555de4c95c.js\",\"8199\",\"static/chunks/8199-a02df3a0d58bb2cd.js\",\"6033\",\"static/chunks/app/username-route-group/%5Busername%5D/(profile)/layout-a79a27ca8896d2d5.js\"],\"default\"]\n22:I[44927,[\"1866\",\"static/chunks/e37a0b60-a0d01cadfa9b38a3.js\",\"6990\",\"static/chunks/13b76428-19ae288db77b99b1.js\",\"7138\",\"static/chunks/7138-e0068763e012bce9.js\",\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"6648\",\"static/chunks/6648-493ecde0321592ac.js\",\"6088\",\"static/chunks/6088-c954a34e0930759b.js\",\"2162\",\"static/chunks/2162-e13a38495da70857.js\",\"4125\",\"static/chunks/4125-3242b8f9cacf52ed.js\",\"8789\",\"static/chunks/8789-507d776c2ff84b06.js\",\"2489\",\"static/chunks/2489-e65d48b9f2724f00.js\",\"3185\",\"static/chunks/app/layout-79ec52664c90e320.js\"],\"default\"]\n23:I[84080,[\"1866\",\"static/chunks/e37a0b60-a0d01cadfa9b38a3.js\",\"6990\","])</script>
+<script>self.__next_f.push([1, "\"static/chunks/13b76428-19ae288db77b99b1.js\",\"7138\",\"static/chunks/7138-e0068763e012bce9.js\",\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"6648\",\"static/chunks/6648-493ecde0321592ac.js\",\"1618\",\"static/chunks/1618-c917d0d060f9b713.js\",\"2126\",\"static/chunks/2126-d01276605df81b2d.js\",\"5840\",\"static/chunks/5840-04b4f5f6f314139d.js\",\"6088\",\"static/chunks/6088-c954a34e0930759b.js\",\"4673\",\"static/chunks/4673-e1598f7d7fb9b453.js\",\"980\",\"static/chunks/980-765f5c940740c1b7.js\",\"5804\",\"static/chunks/5804-556d5bceab7208cd.js\",\"4125\",\"static/chunks/4125-3242b8f9cacf52ed.js\",\"8789\",\"static/chunks/8789-507d776c2ff84b06.js\",\"7770\",\"static/chunks/7770-9245aae856b176c9.js\",\"9956\",\"static/chunks/9956-082cc5c2ccbac411.js\",\"5748\",\"static/chunks/5748-acfbad9625414956.js\",\"8410\",\"static/chunks/8410-b35f5e2c1ebb5b0a.js\",\"2715\",\"static/chunks/app/username-route-group/%5Busername%5D/(single)/%5Bslug%5D/page-ac83fa16c36420b8.js\"],\"\"]\n24:I[64404,[\"1866\",\"static/chunks/e37a0b60-a0d01cadfa9b38a3.js\",\"6990\",\"static/chunks/13b76428-19ae288db77b99b1.js\",\"7138\",\"static/chunks/7138-e0068763e012bce9.js\",\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"6648\",\"static/chunks/6648-493ecde0321592ac.js\",\"6088\",\"static/chunks/6088-c954a34e0930759b.js\",\"2162\",\"static/chunks/2162-e13a38495da70857.js\",\"4125\",\"static/chunks/4125-3242b8f9cacf52ed.js\",\"8789\",\"static/chunks/8789-507d776c2ff84b06.js\",\"2489\",\"static/chunks/2489-e65d48b9f2724f00.js\",\"3185\",\"static/chunks/app/layout-79ec52664c90e320.js\"],\"GoogleAnalytics\"]\n4c:I[62446,[\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"2126\",\"static/chunks/2126-d01276605df81b2d.js\",\"8239\",\"static/chunks/8239-e24e71555de4c95c.js\",\"7601\",\"static/chunks/app/error-f66ccbd204bd8d87.js\"],\"default\"]\n4d:I[75280,[\"5489\",\"static/chunks/app/template-2522c706eb7e7960.js\"],\"default\"]\n"])</script>
+<script>self.__next_f.push([1, "18:[\"$\",\"html\",null,{\"lang\":\"fa\",\"dir\":\"rtl\",\"className\":\"__variable_46c312\",\"children\":[[\"$\",\"head\",null,{\"children\":[\"$\",\"$L1d\",null,{}]}],[\"$\",\"body\",null,{\"suppressHydrationWarning\":true,\"children\":[[\"$\",\"$L1e\",null,{\"locale\":\"fa\",\"messages\":{\"global\":{\"twitter\":\"اکس\"},\"splash\":{\"password\":\"رمز عبور\",\"passwordPageTitle\":\"رمز عبور را وارد نمایید\",\"loginToAccount\":\"ورود به حساب کاربری\",\"loginWithOtherOptions\":\"ورود با سایر روش‌ها\",\"backStep\":\"برگشت به مرحله قبل\",\"login\":{\"title\":\"ورود به حساب کاربری\",\"subTitle\":\"نام کاربری، پست الکترونیک یا شماره موبایل خود را وارد کنید\",\"placeholder\":\"نام کاربری، پست الکترونیک یا شماره موبایل\"},\"register\":{\"title\":\"ایجاد حساب کاربری\",\"subTitle\":\"شماره موبایل یا پست الکترونیک خود را وارد کنید\",\"placeholder\":\"شماره موبایل یا پست الکترونیک\"}},\"general\":{\"virgool\":\"ویرگول\",\"save\":\"ذخیره\",\"add\":\"افزودن\",\"delete\":\"حذف\",\"report\":\"گزارش تخلف\",\"modal\":{\"cancel\":\"منصرف شدم\",\"delete\":\"بله، حذف شود\"},\"startWriting\":\"شروع نوشتن\",\"createNewPost\":\"نوشتن پست جدید\",\"posts\":\"پست‌ها\",\"authors\":\"نویسندگان\",\"newests\":\"جدیدترین‌ها\",\"emptyPosts\":\"پستی برای نمایش وجود ندارد.\",\"post\":{\"impressions\":\"ایمپرشن\",\"addPromotionPost\":\"افزایش بازدید\",\"yourPosts\":\"پست‌های شما\",\"drafts\":\"پیش‌نویس‌ها\",\"published\":\"پست‌های منتشر‌شده\",\"lastEdit\":\"آخرین ویرایش\",\"word\":\"کلمه\",\"publishedAt\":\"منتشر شده در\",\"reading\":\"خواندن\",\"minutes\":\"دقیقه\"}},\"ReCaptcha\":{\"description\":\"برای ادامه فعالیت، تیک گزینه \u003cimportant\u003e«من ربات نیستم»\u003c/important\u003e را بزنید\",\"submit\":\"ادامه\"},\"postsAndPublished\":{\"emptyTitle\":\"بدون عنوان\",\"emptyPublished\":\"شما پستی منتشر نکرده‌اید.\",\"emptyDrafts\":\"شما هیچ پیش‌نویسی ندارید.\",\"edit\":\"ویرایش\",\"drafts\":\"پیش‌نویس\",\"published\":\"پست\",\"addSound\":\"افزودن نسخه صوتی\",\"copyLink\":\"لینک پست کپی شد\",\"copyShortUrl\":\"کپی لینک کوتاه\",\"postToDraft\":\"خارج کردن از حالت انشار\",\"deleteDraft\":\"حذف پیش‌نویس\"},\"tags\":{\"similar\":\"تگ‌های مرتبط\",\"topWriters\":\"نویسندگان برتر\"},\"otpVerification\":{\"title\":\"کد تائید را وارد کنید\",\"methodText\":{\"phone\":\"شماره موبایل\",\"email\":\"ایمیل\"},\"sendCodeText\":\"کد تائید برای {method} \u003cimportant\u003e{value}\u003c/important\u003e ارسال گردید\",\"resendTimerText\":\"ارسال مجدد کد تا \u003cimportant\u003e{value}\u003c/important\u003e دیگر\",\"resendCode\":\"ارسال مجدد کد\",\"submit\":\"تائید و ادامه\"},\"buttonConfirm\":{\"managePostPublication\":{\"add\":{\"title\":\"افزودن به انتشارات\"},\"remove\":{\"title\":\"حذف از انتشارات\",\"text\":\"آیا از حذف این پست از انتشارات مطمئن هستید؟\"}},\"report\":{\"post\":\"گزارش این پست\",\"comment\":\"گزارش این نظر\",\"submit\":\"ارسال گزارش\",\"values\":{\"spam\":\"اسپم\",\"offensive\":\"نوشته توهین آمیز\",\"rules_violation\":\"نقض قوانین ویرگول\",\"other\":\"موارد دیگر\"},\"otherPlaceholder\":\"علت گزارش این نوشته را توضیح دهید\"},\"deleteStory\":{\"posts\":{\"title\":\"خارج کردن پست از حالت انتشار\",\"text\":\"آیا از تصمیم خود مطمئن هستید؟ با خارج کردن پست از حالت انتشار، تمام نظرات و‌ لایک‌های آن حذف خواهد شد.\"},\"drafts\":{\"title\":\"حذف پیش‌نویس\",\"text\":\"آیا از پاک کردن این پیش‌نویس مطمئن هستید؟ در صورت حذف، پیش‌نویس شما قابل بازیابی نخواهد بود.\"},\"comments\":{\"title\":\"حذف نظر\",\"text\":\"آیا از پاک کردن این نظر مطمئن هستید؟ با حذف این نظر، تمام گفتگوها و‌ لایک‌های آن حذف خواهد شد.\"},\"sound\":{\"title\":\"حذف صدا\",\"text\":\"آیا از پاک کردن این صدا مطمئن هستید؟\"}}},\"settings\":{\"about\":{\"name\":{\"title\":\"نام نمایشی\",\"placeholder\":\"نام خود را وارد کنید\",\"description\":\"این نام در پروفایل شما نمایش داده می‌شود\"},\"bio\":{\"title\":\"درباره شما\",\"placeholder\":\"توضیحات خود را وارد کنید\",\"description\":\"بیوگرافی شما در صفحه پروفایل نمایش داده می شود. حداکثر ۲۰۰ کاراکتر\"},\"avatar\":{\"title\":\"عکس پروفایل\",\"description\":\"عکس شما در صفحه پروفایل و پست‌ها نمایش داده می‌شود.\"},\"gender\":{\"title\":\"جنسیت\",\"items\":{\"male\":\"مرد\",\"female\":\"زن\",\"other\":\"سایر\"}},\"birthdate\":{\"title\":\"تاریخ تولد\",\"description\":\"تاریخ تولد در پروفایل نمایش داده نمی‌شود.\"},\"twitter\":{\"title\":\"پروفایل اکس (x.com)\",\"description\":\"نام کاربری شما در اکس\"},\"linkedin\":{\"title\":\"پروفایل لینکدین\",\"description\":\"نام کاربری شما در لینکدین\"}},\"changePassword\":{\"title\":\"تغییر رمز عبور\",\"password\":\"رمز عبور\",\"currentPassword\":\"رمز عبور فعلی\",\"newPassword\":\"رمز عبور جدید\",\"placeholder\":\"{name} خود را وارد کنید\",\"submit\":\"ذخیره\"},\"resetPassword\":{\"title\":\"فراموشی رمز عبور\",\"methodText\":{\"phone\":\"شماره موبایل\",\"email\":\"ایمیل\"},\"placeholder\":\"ارسال رمز یکبار مصرف به {method}\"}},\"contactUs\":{\"title\":\"ارتباط با ویرگول\",\"description\":\"اگر سوال یا پیشنهادی دارید می‌توانید از این طریق پیغام خود را برای ما ارسال کنید.\",\"supportDescription\":\"شما می‌توانید از طریق آدرس ایمیل \u003cimportant\u003e{value}\u003c/important\u003e با ما در ارتباط باشید.\",\"form\":{\"name\":\"نام\",\"email\":\"ایمیل\",\"message\":\"متن پیغام\",\"submit\":\"ارسال پیغام\"}}},\"children\":[\"$\",\"$L1f\",null,{\"sessionData\":{\"userAgent\":\"python-requests/2.32.3\",\"authToken\":\"$undefined\"},\"children\":[[\"$\",\"$L20\",null,{\"params\":{},\"children\":[[[],[\"$\",\"$L21\",null,{\"statusCode\":404}]],[\"$\",\"$L22\",null,{}]]}],[\"$\",\"div\",null,{\"id\":\"app-portal\"}]]}]}],[\"$\",\"$L23\",null,{\"id\":\"schema-v7smI\",\"type\":\"application/ld+json\",\"dangerouslySetInnerHTML\":{\"__html\":\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Corporation\\\",\\\"name\\\":\\\"Virgool\\\",\\\"alternateName\\\":\\\"ویرگول\\\",\\\"url\\\":\\\"https://virgool.io\\\",\\\"logo\\\":\\\"https://static.virgool.io/images/app/logo.webp\\\",\\\"sameAs\\\":[\\\"https://www.facebook.com/virgool.io\\\",\\\"https://twitter.com/virgool_io\\\",\\\"https://instagram.com/virgool.io\\\",\\\"https://www.linkedin.com/company/virgool.io\\\"],\\\"contactPoint\\\":[{\\\"@type\\\":\\\"ContactPoint\\\",\\\"email\\\":\\\"hi@virgool.io\\\",\\\"contactType\\\":\\\"customer service\\\"}]}\"}}],[\"$\",\"$L23\",null,{\"id\":\"countly\",\"strategy\":\"lazyOnload\",\"dangerouslySetInnerHTML\":{\"__html\":\" var Countly = Countly || {};\\n          Countly.q = Countly.q || [];\\n          Countly.app_key = \\\"7ee02c9abf35fbcbd7a0906a071b6c2b05fdc7aa\\\";\\n          Countly.url = \\\"https://countly.virgool.io\\\";\\n          Countly.q.push(['track_sessions']);\\n          Countly.q.push(['track_pageview']);\\n          (function() {\\n          var cly = document.createElement('script'); cly.type = 'text/javascript';\\n          cly.async = true;\\n          // Enter URL of script here (see below for other option)\\n          cly.src = \\\"https://countly.virgool.io/sdk/web/countly.min.js\\\";\\n          cly.onload = function(){Countly.init()};\\n          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cly, s);\\n          })();\"}}]]}],[\"$\",\"$L24\",null,{\"gaId\":\"G-V1LLR5NWKW\"}]]}]\n"])</script>
+<script>self.__next_f.push([1, "26:{\"twitter\":\"اکس\"}\n28:{\"title\":\"ورود به حساب کاربری\",\"subTitle\":\"نام کاربری، پست الکترونیک یا شماره موبایل خود را وارد کنید\",\"placeholder\":\"نام کاربری، پست الکترونیک یا شماره موبایل\"}\n29:{\"title\":\"ایجاد حساب کاربری\",\"subTitle\":\"شماره موبایل یا پست الکترونیک خود را وارد کنید\",\"placeholder\":\"شماره موبایل یا پست الکترونیک\"}\n27:{\"password\":\"رمز عبور\",\"passwordPageTitle\":\"رمز عبور را وارد نمایید\",\"loginToAccount\":\"ورود به حساب کاربری\",\"loginWithOtherOptions\":\"ورود با سایر روش‌ها\",\"backStep\":\"برگشت به مرحله قبل\",\"login\":\"$28\",\"register\":\"$29\"}\n2b:{\"cancel\":\"منصرف شدم\",\"delete\":\"بله، حذف شود\"}\n2c:{\"impressions\":\"ایمپرشن\",\"addPromotionPost\":\"افزایش بازدید\",\"yourPosts\":\"پست‌های شما\",\"drafts\":\"پیش‌نویس‌ها\",\"published\":\"پست‌های منتشر‌شده\",\"lastEdit\":\"آخرین ویرایش\",\"word\":\"کلمه\",\"publishedAt\":\"منتشر شده در\",\"reading\":\"خواندن\",\"minutes\":\"دقیقه\"}\n2a:{\"virgool\":\"ویرگول\",\"save\":\"ذخیره\",\"add\":\"افزودن\",\"delete\":\"حذف\",\"report\":\"گزارش تخلف\",\"modal\":\"$2b\",\"startWriting\":\"شروع نوشتن\",\"createNewPost\":\"نوشتن پست جدید\",\"posts\":\"پست‌ها\",\"authors\":\"نویسندگان\",\"newests\":\"جدیدترین‌ها\",\"emptyPosts\":\"پستی برای نمایش وجود ندارد.\",\"post\":\"$2c\"}\n2d:{\"description\":\"برای ادامه فعالیت، تیک گزینه \u003cimportant\u003e«من ربات نیستم»\u003c/important\u003e را بزنید\",\"submit\":\"ادامه\"}\n2e:{\"emptyTitle\":\"بدون عنوان\",\"emptyPublished\":\"شما پستی منتشر نکرده‌اید.\",\"emptyDrafts\":\"شما هیچ پیش‌نویسی ندارید.\",\"edit\":\"ویرایش\",\"drafts\":\"پیش‌نویس\",\"published\":\"پست\",\"addSound\":\"افزودن نسخه صوت"])</script>
+<script>self.__next_f.push([1, "ی\",\"copyLink\":\"لینک پست کپی شد\",\"copyShortUrl\":\"کپی لینک کوتاه\",\"postToDraft\":\"خارج کردن از حالت انشار\",\"deleteDraft\":\"حذف پیش‌نویس\"}\n2f:{\"similar\":\"تگ‌های مرتبط\",\"topWriters\":\"نویسندگان برتر\"}\n31:{\"phone\":\"شماره موبایل\",\"email\":\"ایمیل\"}\n30:{\"title\":\"کد تائید را وارد کنید\",\"methodText\":\"$31\",\"sendCodeText\":\"کد تائید برای {method} \u003cimportant\u003e{value}\u003c/important\u003e ارسال گردید\",\"resendTimerText\":\"ارسال مجدد کد تا \u003cimportant\u003e{value}\u003c/important\u003e دیگر\",\"resendCode\":\"ارسال مجدد کد\",\"submit\":\"تائید و ادامه\"}\n34:{\"title\":\"افزودن به انتشارات\"}\n35:{\"title\":\"حذف از انتشارات\",\"text\":\"آیا از حذف این پست از انتشارات مطمئن هستید؟\"}\n33:{\"add\":\"$34\",\"remove\":\"$35\"}\n37:{\"spam\":\"اسپم\",\"offensive\":\"نوشته توهین آمیز\",\"rules_violation\":\"نقض قوانین ویرگول\",\"other\":\"موارد دیگر\"}\n36:{\"post\":\"گزارش این پست\",\"comment\":\"گزارش این نظر\",\"submit\":\"ارسال گزارش\",\"values\":\"$37\",\"otherPlaceholder\":\"علت گزارش این نوشته را توضیح دهید\"}\n39:{\"title\":\"خارج کردن پست از حالت انتشار\",\"text\":\"آیا از تصمیم خود مطمئن هستید؟ با خارج کردن پست از حالت انتشار، تمام نظرات و‌ لایک‌های آن حذف خواهد شد.\"}\n3a:{\"title\":\"حذف پیش‌نویس\",\"text\":\"آیا از پاک کردن این پیش‌نویس مطمئن هستید؟ در صورت حذف، پیش‌نویس شما قابل بازیابی نخواهد بود.\"}\n3b:{\"title\":\"حذف نظر\",\"text\":\"آیا از پاک کردن این نظر مطمئن هستید؟ با حذف این نظر، تمام گفتگوها و‌ لایک‌های آن حذف خواهد شد.\"}\n3c:{\"title\":\"حذف صدا\",\"text\":\"آیا از پاک کردن این صدا مطمئن هستید؟\"}\n38:{\"p"])</script>
+<script>self.__next_f.push([1, "osts\":\"$39\",\"drafts\":\"$3a\",\"comments\":\"$3b\",\"sound\":\"$3c\"}\n32:{\"managePostPublication\":\"$33\",\"report\":\"$36\",\"deleteStory\":\"$38\"}\n3f:{\"title\":\"نام نمایشی\",\"placeholder\":\"نام خود را وارد کنید\",\"description\":\"این نام در پروفایل شما نمایش داده می‌شود\"}\n40:{\"title\":\"درباره شما\",\"placeholder\":\"توضیحات خود را وارد کنید\",\"description\":\"بیوگرافی شما در صفحه پروفایل نمایش داده می شود. حداکثر ۲۰۰ کاراکتر\"}\n41:{\"title\":\"عکس پروفایل\",\"description\":\"عکس شما در صفحه پروفایل و پست‌ها نمایش داده می‌شود.\"}\n43:{\"male\":\"مرد\",\"female\":\"زن\",\"other\":\"سایر\"}\n42:{\"title\":\"جنسیت\",\"items\":\"$43\"}\n44:{\"title\":\"تاریخ تولد\",\"description\":\"تاریخ تولد در پروفایل نمایش داده نمی‌شود.\"}\n45:{\"title\":\"پروفایل اکس (x.com)\",\"description\":\"نام کاربری شما در اکس\"}\n46:{\"title\":\"پروفایل لینکدین\",\"description\":\"نام کاربری شما در لینکدین\"}\n3e:{\"name\":\"$3f\",\"bio\":\"$40\",\"avatar\":\"$41\",\"gender\":\"$42\",\"birthdate\":\"$44\",\"twitter\":\"$45\",\"linkedin\":\"$46\"}\n47:{\"title\":\"تغییر رمز عبور\",\"password\":\"رمز عبور\",\"currentPassword\":\"رمز عبور فعلی\",\"newPassword\":\"رمز عبور جدید\",\"placeholder\":\"{name} خود را وارد کنید\",\"submit\":\"ذخیره\"}\n49:{\"phone\":\"شماره موبایل\",\"email\":\"ایمیل\"}\n48:{\"title\":\"فراموشی رمز عبور\",\"methodText\":\"$49\",\"placeholder\":\"ارسال رمز یکبار مصرف به {method}\"}\n3d:{\"about\":\"$3e\",\"changePassword\":\"$47\",\"resetPassword\":\"$48\"}\n4b:{\"name\":\"نام\",\"email\":\"ایمیل\",\"message\":\"متن پیغام\",\"submit\":\"ارسال پیغام\"}\n4a:{\"title\":\"ارتباط با ویرگول\",\"description\":\"اگر سوال یا پیشنهادی دارید می‌توانید از این طریق پیغام خود را برای ما ارسال کنید.\",\"supportDescr"])</script>
+<script>self.__next_f.push([1, "iption\":\"شما می‌توانید از طریق آدرس ایمیل \u003cimportant\u003e{value}\u003c/important\u003e با ما در ارتباط باشید.\",\"form\":\"$4b\"}\n25:{\"global\":\"$26\",\"splash\":\"$27\",\"general\":\"$2a\",\"ReCaptcha\":\"$2d\",\"postsAndPublished\":\"$2e\",\"tags\":\"$2f\",\"otpVerification\":\"$30\",\"buttonConfirm\":\"$32\",\"settings\":\"$3d\",\"contactUs\":\"$4a\"}\n4e:[]\n4f:[]\n50:[]\n51:[]\n52:[]\n53:{}\n"])</script>
+<script>self.__next_f.push([1, "19:[\"$\",\"html\",null,{\"lang\":\"fa\",\"dir\":\"rtl\",\"className\":\"__variable_46c312\",\"children\":[[\"$\",\"head\",null,{\"children\":[\"$\",\"$L1d\",null,{}]}],[\"$\",\"body\",null,{\"suppressHydrationWarning\":true,\"children\":[[\"$\",\"$L1e\",null,{\"locale\":\"fa\",\"messages\":\"$25\",\"children\":[\"$\",\"$L1f\",null,{\"sessionData\":{\"userAgent\":\"python-requests/2.32.3\",\"authToken\":\"$undefined\"},\"children\":[[\"$\",\"$L20\",null,{\"sidebar\":[\"$\",\"$Lc\",null,{\"parallelRouterKey\":\"sidebar\",\"segmentPath\":[\"sidebar\"],\"error\":\"$4c\",\"errorStyles\":[],\"errorScripts\":[],\"template\":[\"$\",\"$L4d\",null,{\"children\":[\"$\",\"$Ld\",null,{}]}],\"templateStyles\":[],\"templateScripts\":[],\"notFound\":\"$undefined\",\"notFoundStyles\":\"$4e\",\"styles\":null}],\"children\":[[\"$\",\"$Lc\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$4c\",\"errorStyles\":\"$4f\",\"errorScripts\":\"$50\",\"template\":[\"$\",\"$L4d\",null,{\"children\":[\"$\",\"$Ld\",null,{}]}],\"templateStyles\":\"$51\",\"templateScripts\":\"$52\",\"notFound\":[\"$\",\"$L21\",null,{\"statusCode\":404}],\"notFoundStyles\":\"$4e\",\"styles\":null}],[\"$\",\"$L22\",null,{}]],\"params\":\"$53\"}],[\"$\",\"div\",null,{\"id\":\"app-portal\"}]]}]}],[\"$\",\"$L23\",null,{\"id\":\"schema-GWR2c\",\"type\":\"application/ld+json\",\"dangerouslySetInnerHTML\":{\"__html\":\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Corporation\\\",\\\"name\\\":\\\"Virgool\\\",\\\"alternateName\\\":\\\"ویرگول\\\",\\\"url\\\":\\\"https://virgool.io\\\",\\\"logo\\\":\\\"https://static.virgool.io/images/app/logo.webp\\\",\\\"sameAs\\\":[\\\"https://www.facebook.com/virgool.io\\\",\\\"https://twitter.com/virgool_io\\\",\\\"https://instagram.com/virgool.io\\\",\\\"https://www.linkedin.com/company/virgool.io\\\"],\\\"contactPoint\\\":[{\\\"@type\\\":\\\"ContactPoint\\\",\\\"email\\\":\\\"hi@virgool.io\\\",\\\"contactType\\\":\\\"customer service\\\"}]}\"}}],[\"$\",\"$L23\",null,{\"id\":\"countly\",\"strategy\":\"lazyOnload\",\"dangerouslySetInnerHTML\":{\"__html\":\" var Countly = Countly || {};\\n          Countly.q = Countly.q || [];\\n          Countly.app_key = \\\"7ee02c9abf35fbcbd7a0906a071b6c2b05fdc7aa\\\";\\n          Countly.url = \\\"https://countly.virgool.io\\\";\\n          Countly.q.push(['track_sessions']);\\n          Countly.q.push(['track_pageview']);\\n          (function() {\\n          var cly = document.createElement('script'); cly.type = 'text/javascript';\\n          cly.async = true;\\n          // Enter URL of script here (see below for other option)\\n          cly.src = \\\"https://countly.virgool.io/sdk/web/countly.min.js\\\";\\n          cly.onload = function(){Countly.init()};\\n          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cly, s);\\n          })();\"}}]]}],[\"$\",\"$L24\",null,{\"gaId\":\"G-V1LLR5NWKW\"}]]}]\n"])</script>
+<script>self.__next_f.push([1, "54:I[11422,[\"1866\",\"static/chunks/e37a0b60-a0d01cadfa9b38a3.js\",\"6990\",\"static/chunks/13b76428-19ae288db77b99b1.js\",\"7138\",\"static/chunks/7138-e0068763e012bce9.js\",\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"6648\",\"static/chunks/6648-493ecde0321592ac.js\",\"1618\",\"static/chunks/1618-c917d0d060f9b713.js\",\"2126\",\"static/chunks/2126-d01276605df81b2d.js\",\"5840\",\"static/chunks/5840-04b4f5f6f314139d.js\",\"6088\",\"static/chunks/6088-c954a34e0930759b.js\",\"4673\",\"static/chunks/4673-e1598f7d7fb9b453.js\",\"980\",\"static/chunks/980-765f5c940740c1b7.js\",\"5804\",\"static/chunks/5804-556d5bceab7208cd.js\",\"4125\",\"static/chunks/4125-3242b8f9cacf52ed.js\",\"8789\",\"static/chunks/8789-507d776c2ff84b06.js\",\"7770\",\"static/chunks/7770-9245aae856b176c9.js\",\"9956\",\"static/chunks/9956-082cc5c2ccbac411.js\",\"5748\",\"static/chunks/5748-acfbad9625414956.js\",\"8410\",\"static/chunks/8410-b35f5e2c1ebb5b0a.js\",\"2715\",\"static/chunks/app/username-route-group/%5Busername%5D/(single)/%5Bslug%5D/page-ac83fa16c36420b8.js\"],\"default\"]\n57:I[87755,[\"1866\",\"static/chunks/e37a0b60-a0d01cadfa9b38a3.js\",\"6990\",\"static/chunks/13b76428-19ae288db77b99b1.js\",\"7138\",\"static/chunks/7138-e0068763e012bce9.js\",\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"6648\",\"static/chunks/6648-493ecde0321592ac.js\",\"1618\",\"static/chunks/1618-c917d0d060f9b713.js\",\"2126\",\"static/chunks/2126-d01276605df81b2d.js\",\"5840\",\"static/chunks/5840-04b4f5f6f314139d.js\",\"6088\",\"static/chunks/6088-c954a34e0930759b.js\",\"4673\",\"static/chunks/4673-e1598f7d7fb9b453.js\",\"980\",\"static/chunks/980-765f5c940740c1b7.js\",\"5804\",\"static/chunks/5804-556d5bceab7208cd.js\",\"4125\",\"static/chunks/4125-3242b8f9cacf52ed.js\",\"8789\",\"static/chunks/8789-507d776c2ff84b06.js\",\"7770\",\"static/chunks/7770-9245aae856b176c9.js\",\"9956\",\"static/chunks/9956-082cc5c2ccbac411.js\",\"5748\",\"static/chunks/5748-acfbad9625414956.js\",\"8410\",\"static/chunks/8410-b35f5e2c1ebb5b0a.js\",\"2715\",\"static/chunks/app/username-route-group/%5Busername%5D/(singl"])</script>
+<script>self.__next_f.push([1, "e)/%5Bslug%5D/page-ac83fa16c36420b8.js\"],\"default\"]\n58:I[82363,[\"1866\",\"static/chunks/e37a0b60-a0d01cadfa9b38a3.js\",\"7138\",\"static/chunks/7138-e0068763e012bce9.js\",\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"6648\",\"static/chunks/6648-493ecde0321592ac.js\",\"6088\",\"static/chunks/6088-c954a34e0930759b.js\",\"4125\",\"static/chunks/4125-3242b8f9cacf52ed.js\",\"2489\",\"static/chunks/2489-e65d48b9f2724f00.js\",\"7934\",\"static/chunks/app/username-route-group/%5Busername%5D/(single)/%5Bslug%5D/layout-79654036a3aa728b.js\"],\"default\"]\n63:I[15208,[\"1866\",\"static/chunks/e37a0b60-a0d01cadfa9b38a3.js\",\"7138\",\"static/chunks/7138-e0068763e012bce9.js\",\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"6648\",\"static/chunks/6648-493ecde0321592ac.js\",\"6088\",\"static/chunks/6088-c954a34e0930759b.js\",\"4125\",\"static/chunks/4125-3242b8f9cacf52ed.js\",\"2489\",\"static/chunks/2489-e65d48b9f2724f00.js\",\"7934\",\"static/chunks/app/username-route-group/%5Busername%5D/(single)/%5Bslug%5D/layout-79654036a3aa728b.js\"],\"default\"]\n64:I[79442,[\"1866\",\"static/chunks/e37a0b60-a0d01cadfa9b38a3.js\",\"7138\",\"static/chunks/7138-e0068763e012bce9.js\",\"4592\",\"static/chunks/4592-c4d9277400a63720.js\",\"6882\",\"static/chunks/6882-1c71d5d12a415d88.js\",\"6648\",\"static/chunks/6648-493ecde0321592ac.js\",\"6088\",\"static/chunks/6088-c954a34e0930759b.js\",\"4125\",\"static/chunks/4125-3242b8f9cacf52ed.js\",\"2489\",\"static/chunks/2489-e65d48b9f2724f00.js\",\"7934\",\"static/chunks/app/username-route-group/%5Busername%5D/(single)/%5Bslug%5D/layout-79654036a3aa728b.js\"],\"default\"]\n55:T1243,"])</script>
+<script>self.__next_f.push([1, "\u003cp class=\"md-block-unstyled\"\u003eسلام\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003eمن خیلی توی گروه های مختلف میبینم که افراد به دنبال یادگیری فریمورک جنگو هستند و اکثرا هم سردرگم هستند که دنبال کدام دوره ی آموزشی بروند آیا هزینه کنند یا از دوره های رایگان استفاده کنند؟\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003eاول اینکه به زبون ساده بگم جنگو چیه ؟\u003c/p\u003e\u003ch3 class=\"md-block-header-three\"\u003eجنگو چیست ؟\u003c/h3\u003e\u003cp class=\"md-block-unstyled\"\u003eجنگو یکی از فریمورک های توسعه وب هست که در backend استفاده میشود. اگر اسم لاراول یا کدایگنایتر را شنیده باشید جنگو هم دقیقا مثل آنهاست ولی تفاوت جنگو با آنها این است که آن فریمورک ها با زبان برنامه نویسی PHP هستند ولی جنگو با زبان Python هست.\u003c/p\u003e\u003cfigure class=\"md-block-image md-block-image-has-caption\"\u003e\u003cimg src=\"https://files.virgool.io/upload/users/126163/posts/fm9tswkgfrob/oci7in7zeyqy.jpg\" alt=\"لوگو فریمورک جنگو\"\u003e\u003cfigcaption classname=\"md-block-image-caption\"\u003eلوگو فریمورک جنگو\u003c/figcaption\u003e\u003c/figure\u003e\u003cp class=\"md-block-unstyled\"\u003e\u003cbr\u003e\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003eبا فریمورک جنگو میتوانید سایت های بسیار پرسرعت و ایمن بسازید و به نظرم برای پروژه های درست حسابی و قوی بهتره از جنگو استفاده شه\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003eیه چندتا سوال که همیشه درباره ی \u003cstrong class=\"md-inline-bold\"\u003eفریمورک جنگو\u003c/strong\u003e شنیدم رو جواب میدم سریع جواب میدم حوصله توضیح زیاد ندارم چون چیزهای عیان و آشکاری هستن چیز عیان چه حاجب به بیان ؟\u003c/p\u003e\u003cul class=\"md-block-unordered-list-item\"\u003e\u003cli\u003eآیا \u003cstrong class=\"md-inline-bold\"\u003eیادگیری جنگو\u003c/strong\u003e سخت است ؟ اگه پایتون بلدی نه اگه پایتون بلد نیستی آره\u003c/li\u003e\u003cli\u003eپیش نیاز \u003cstrong class=\"md-inline-bold\"\u003eجنگو \u003c/strong\u003eچیه ؟ بلد بودن زبان پایتون\u003c/li\u003e\u003cli\u003eبا \u003cstrong class=\"md-inline-bold\"\u003eفریمورک جنگو\u003c/strong\u003e چه نوع سایت هایی میشه ساخت ؟ هر نوع سایتی ولی بیشتر سایت های که ترافیک خوبی دارن\u003c/li\u003e\u003cli\u003e\u003cstrong class=\"md-inline-bold\"\u003eفریمورک جنگو\u003c/strong\u003e برای کدام قسمت وب استفاده میشود ؟ برای سمت سرور ( بک اند یا backend )\u003c/li\u003e\u003c/ul\u003e\u003cp class=\"md-block-unstyled\"\u003eخب من به چندین سوال عمومی جواب دادم و شما تقریبا الان میدونید که Django چیه\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003eخب برای یادگیری این فریمورک زیبا شما میتونید از دوره ی آموزش زیر شروع کنید که استاد سام نیکزاد مدرس آن هستند و واقعا تدریس عالی دارند ایشان استاد بنده بودن و من پایتون - فریمورک فلسک پایتون و فریمورک جنگوو را یاد گرفتم و حتما توصیه میکنم از دوره های ایشان استفاده کنید :\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003e\u003cbr\u003e\u003c/p\u003e\u003cfigure class=\"md-block-image md-block-image-has-caption\"\u003e\u003cimg src=\"https://files.virgool.io/upload/users/126163/posts/fm9tswkgfrob/p1hlmjlg50ke.jpg\" alt=\"دوره ی آموزش رایگان django\"\u003e\u003cfigcaption classname=\"md-block-image-caption\"\u003eدوره ی آموزش رایگان django\u003c/figcaption\u003e\u003c/figure\u003e\u003cp class=\"md-block-unstyled\"\u003e\u003cbr\u003e\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003eبرای تماشای این دوره ی آموزشی که صفر تا صد هست به لینک های زیر مراجعه کنید :\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003e\u003ca class=\"md-inline-link\" href=\"https://l.vrgl.ir/r?ad=1\u0026amp;l=https%3A%2F%2Fwww.aparat.com%2Fplaylist%2F9869582\u0026amp;si=fm9tswkgfrob\u0026amp;st=post\u0026amp;k=RgMOTg1RIzj2gcbxolRgieMagBPUnlnCxh%2FUAupnQIA%3D\" target=\"_blank\" rel=\"noopener nofollow\"\u003eپلی لیست کامل این دوره در سایت آپارات \u003c/a\u003e\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003e\u003ca class=\"md-inline-link\" href=\"https://l.vrgl.ir/r?ad=1\u0026amp;l=https%3A%2F%2Fyoutube.com%2Fplaylist%3Flist%3DPL9KHRBVQQhJcwhCV6hcooMBpTahRMxvgw%26si%3DwZYl-8yyN8Mv4y4n\u0026amp;si=fm9tswkgfrob\u0026amp;st=post\u0026amp;k=DHaFMvGnBC0wFiu9KRsAs8N4lNrHsGY6F9f%2B2pZksfk%3D\" target=\"_blank\" rel=\"noopener nofollow\"\u003eپلی لیست این دوره در یوتیوب\u003c/a\u003e\u003c/p\u003e"])</script>
+<script>self.__next_f.push([1, "56:T6e3,{\"@context\":\"https://schema.org\",\"@type\":\"NewsArticle\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://files.virgool.io/upload/users/126163/posts/fm9tswkgfrob/oci7in7zeyqy.jpg\",\"width\":1920,\"height\":1280},\"url\":\"https://virgool.io/@mahsa.tabrizi92/%D9%81%D8%B1%DB%8C%D9%85%D9%88%D8%B1%DA%A9-%D8%AC%D9%86%DA%AF%D9%88-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%B1%D8%A7-%D8%A7%D8%B2-%DA%A9%D8%AC%D8%A7-%DB%8C%D8%A7%D8%AF-%D8%A8%DA%AF%DB%8C%D8%B1%D9%85-fm9tswkgfrob\",\"dateCreated\":\"2024-06-05T23:41:33.000000Z\",\"datePublished\":\"2024-06-05T23:41:33.000000Z\",\"dateModified\":\"2024-06-05T23:44:15.000000Z\",\"headline\":\"فریمورک جنگو ( پایتون ) را از کجا یاد بگیرم\",\"name\":\"فریمورک جنگو ( پایتون ) را از کجا یاد بگیرم\",\"description\":\"فریمورک Django را از کجا یاد بگیریم\",\"identifier\":\"fm9tswkgfrob\",\"commentCount\":0,\"author\":{\"@type\":\"Person\",\"name\":\"مهسا تبریزی\",\"url\":\"https://virgool.io/@mahsa.tabrizi92\"},\"creator\":\"مهسا تبریزی\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"ویرگول\",\"alternateName\":\"Virgool\",\"url\":\"https://virgool.io\",\"sameAs\":[\"https://instagram.com/virgool.io\",\"https://x.com/virgool_io\",\"https://telegram.me/virgool_io\",\"https://www.linkedin.com/company/virgool.io\",\"https://www.youtube.com/channel/UCaimJ9mYlFHaU7KM6nqy4EQ\"],\"logo\":{\"@type\":\"ImageObject\",\"width\":50,\"height\":50,\"url\":\"https://static.virgool.io/images/app/logo.webp?width=64\"}},\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https://virgool.io/@mahsa.tabrizi92/%D9%81%D8%B1%DB%8C%D9%85%D9%88%D8%B1%DA%A9-%D8%AC%D9%86%DA%AF%D9%88-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%B1%D8%A7-%D8%A7%D8%B2-%DA%A9%D8%AC%D8%A7-%DB%8C%D8%A7%D8%AF-%D8%A8%DA%AF%DB%8C%D8%B1%D9%85-fm9tswkgfrob\"}}"])</script>
+<script>self.__next_f.push([1, "10:[[\"$\",\"$L54\",null,{\"postData\":{\"data\":{\"title\":\"فریمورک جنگو ( پایتون ) را از کجا یاد بگیرم\",\"hash\":\"fm9tswkgfrob\",\"description\":\"فریمورک Django را از کجا یاد بگیریم\",\"slug\":\"فریمورک-جنگو-پایتون-را-از-کجا-یاد-بگیرم-fm9tswkgfrob\",\"image\":\"https://files.virgool.io/upload/users/126163/posts/fm9tswkgfrob/oci7in7zeyqy.jpg\",\"publishedAt\":\"2024-06-05T23:41:33.000000Z\",\"updatedAt\":\"2024-06-05T23:44:15.000000Z\",\"readingTime\":2,\"likesCount\":3,\"liked\":false,\"bookmarked\":false,\"boostUrl\":null,\"features\":[{\"promotion\":{\"has_history\":false,\"status\":\"promotable\"}}],\"url\":\"https://virgool.io/@mahsa.tabrizi92/%D9%81%D8%B1%DB%8C%D9%85%D9%88%D8%B1%DA%A9-%D8%AC%D9%86%DA%AF%D9%88-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%B1%D8%A7-%D8%A7%D8%B2-%DA%A9%D8%AC%D8%A7-%DB%8C%D8%A7%D8%AF-%D8%A8%DA%AF%DB%8C%D8%B1%D9%85-fm9tswkgfrob\",\"user\":{\"username\":\"mahsa.tabrizi92\",\"name\":\"مهسا تبریزی\",\"hash\":\"ob5wnbbe6q1w\",\"avatar\":\"https://files.virgool.io/upload/users/126163/avatar/e311oI.png\",\"bio\":\"عکاس و عاشق طراحی وب و برنامه نویسی\",\"feed\":\"https://virgool.io/feed/@mahsa.tabrizi92\",\"url\":\"https://virgool.io/@mahsa.tabrizi92\",\"followersCount\":188,\"followingCount\":1,\"socials\":[],\"isBlocking\":false,\"isBlocked\":false,\"followed\":false,\"isFollowingYou\":false},\"publication\":null,\"topics\":[\"برنامه نویسی\"],\"commentsCount\":0,\"wordsCount\":332,\"body\":\"$55\",\"tags\":[\"فریمورک جنگو\",\"django\",\"جنگو\",\"پایتون\",\"توسعه وب\"],\"hasTOC\":false,\"shortUrl\":\"https://vrgl.ir/oDZ1e\",\"sound\":null},\"meta\":{\"userCanEditPostPublication\":false,\"premiumRestriction\":true}}}],[\"$\",\"$L23\",null,{\"id\":\"schema-QM9e0\",\"type\":\"application/ld+json\",\"dangerouslySetInnerHTML\":{\"__html\":\"$56\"}}],[\"$\",\"$L57\",null,{\"items\":[{\"name\":\"فریمورک جنگو ( پایتون ) را از کجا یاد بگیرم\",\"path\":\"https://virgool.io/@mahsa.tabrizi92/%D9%81%D8%B1%DB%8C%D9%85%D9%88%D8%B1%DA%A9-%D8%AC%D9%86%DA%AF%D9%88-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%B1%D8%A7-%D8%A7%D8%B2-%DA%A9%D8%AC%D8%A7-%DB%8C%D8%A7%D8%AF-%D8%A8%DA%AF%DB%8C%D8%B1%D9%85-fm9tswkgfrob\"}]}]]\n"])</script>
+<script>self.__next_f.push([1, "5c:{\"has_history\":false,\"status\":\"promotable\"}\n5b:{\"promotion\":\"$5c\"}\n5a:[\"$5b\"]\n5e:[]\n5d:{\"username\":\"mahsa.tabrizi92\",\"name\":\"مهسا تبریزی\",\"hash\":\"ob5wnbbe6q1w\",\"avatar\":\"https://files.virgool.io/upload/users/126163/avatar/e311oI.png\",\"bio\":\"عکاس و عاشق طراحی وب و برنامه نویسی\",\"feed\":\"https://virgool.io/feed/@mahsa.tabrizi92\",\"url\":\"https://virgool.io/@mahsa.tabrizi92\",\"followersCount\":188,\"followingCount\":1,\"socials\":\"$5e\",\"isBlocking\":false,\"isBlocked\":false,\"followed\":false,\"isFollowingYou\":false}\n5f:[\"برنامه نویسی\"]\n60:T1243,"])</script>
+<script>self.__next_f.push([1, "\u003cp class=\"md-block-unstyled\"\u003eسلام\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003eمن خیلی توی گروه های مختلف میبینم که افراد به دنبال یادگیری فریمورک جنگو هستند و اکثرا هم سردرگم هستند که دنبال کدام دوره ی آموزشی بروند آیا هزینه کنند یا از دوره های رایگان استفاده کنند؟\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003eاول اینکه به زبون ساده بگم جنگو چیه ؟\u003c/p\u003e\u003ch3 class=\"md-block-header-three\"\u003eجنگو چیست ؟\u003c/h3\u003e\u003cp class=\"md-block-unstyled\"\u003eجنگو یکی از فریمورک های توسعه وب هست که در backend استفاده میشود. اگر اسم لاراول یا کدایگنایتر را شنیده باشید جنگو هم دقیقا مثل آنهاست ولی تفاوت جنگو با آنها این است که آن فریمورک ها با زبان برنامه نویسی PHP هستند ولی جنگو با زبان Python هست.\u003c/p\u003e\u003cfigure class=\"md-block-image md-block-image-has-caption\"\u003e\u003cimg src=\"https://files.virgool.io/upload/users/126163/posts/fm9tswkgfrob/oci7in7zeyqy.jpg\" alt=\"لوگو فریمورک جنگو\"\u003e\u003cfigcaption classname=\"md-block-image-caption\"\u003eلوگو فریمورک جنگو\u003c/figcaption\u003e\u003c/figure\u003e\u003cp class=\"md-block-unstyled\"\u003e\u003cbr\u003e\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003eبا فریمورک جنگو میتوانید سایت های بسیار پرسرعت و ایمن بسازید و به نظرم برای پروژه های درست حسابی و قوی بهتره از جنگو استفاده شه\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003eیه چندتا سوال که همیشه درباره ی \u003cstrong class=\"md-inline-bold\"\u003eفریمورک جنگو\u003c/strong\u003e شنیدم رو جواب میدم سریع جواب میدم حوصله توضیح زیاد ندارم چون چیزهای عیان و آشکاری هستن چیز عیان چه حاجب به بیان ؟\u003c/p\u003e\u003cul class=\"md-block-unordered-list-item\"\u003e\u003cli\u003eآیا \u003cstrong class=\"md-inline-bold\"\u003eیادگیری جنگو\u003c/strong\u003e سخت است ؟ اگه پایتون بلدی نه اگه پایتون بلد نیستی آره\u003c/li\u003e\u003cli\u003eپیش نیاز \u003cstrong class=\"md-inline-bold\"\u003eجنگو \u003c/strong\u003eچیه ؟ بلد بودن زبان پایتون\u003c/li\u003e\u003cli\u003eبا \u003cstrong class=\"md-inline-bold\"\u003eفریمورک جنگو\u003c/strong\u003e چه نوع سایت هایی میشه ساخت ؟ هر نوع سایتی ولی بیشتر سایت های که ترافیک خوبی دارن\u003c/li\u003e\u003cli\u003e\u003cstrong class=\"md-inline-bold\"\u003eفریمورک جنگو\u003c/strong\u003e برای کدام قسمت وب استفاده میشود ؟ برای سمت سرور ( بک اند یا backend )\u003c/li\u003e\u003c/ul\u003e\u003cp class=\"md-block-unstyled\"\u003eخب من به چندین سوال عمومی جواب دادم و شما تقریبا الان میدونید که Django چیه\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003eخب برای یادگیری این فریمورک زیبا شما میتونید از دوره ی آموزش زیر شروع کنید که استاد سام نیکزاد مدرس آن هستند و واقعا تدریس عالی دارند ایشان استاد بنده بودن و من پایتون - فریمورک فلسک پایتون و فریمورک جنگوو را یاد گرفتم و حتما توصیه میکنم از دوره های ایشان استفاده کنید :\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003e\u003cbr\u003e\u003c/p\u003e\u003cfigure class=\"md-block-image md-block-image-has-caption\"\u003e\u003cimg src=\"https://files.virgool.io/upload/users/126163/posts/fm9tswkgfrob/p1hlmjlg50ke.jpg\" alt=\"دوره ی آموزش رایگان django\"\u003e\u003cfigcaption classname=\"md-block-image-caption\"\u003eدوره ی آموزش رایگان django\u003c/figcaption\u003e\u003c/figure\u003e\u003cp class=\"md-block-unstyled\"\u003e\u003cbr\u003e\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003eبرای تماشای این دوره ی آموزشی که صفر تا صد هست به لینک های زیر مراجعه کنید :\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003e\u003ca class=\"md-inline-link\" href=\"https://l.vrgl.ir/r?ad=1\u0026amp;l=https%3A%2F%2Fwww.aparat.com%2Fplaylist%2F9869582\u0026amp;si=fm9tswkgfrob\u0026amp;st=post\u0026amp;k=RgMOTg1RIzj2gcbxolRgieMagBPUnlnCxh%2FUAupnQIA%3D\" target=\"_blank\" rel=\"noopener nofollow\"\u003eپلی لیست کامل این دوره در سایت آپارات \u003c/a\u003e\u003c/p\u003e\u003cp class=\"md-block-unstyled\"\u003e\u003ca class=\"md-inline-link\" href=\"https://l.vrgl.ir/r?ad=1\u0026amp;l=https%3A%2F%2Fyoutube.com%2Fplaylist%3Flist%3DPL9KHRBVQQhJcwhCV6hcooMBpTahRMxvgw%26si%3DwZYl-8yyN8Mv4y4n\u0026amp;si=fm9tswkgfrob\u0026amp;st=post\u0026amp;k=DHaFMvGnBC0wFiu9KRsAs8N4lNrHsGY6F9f%2B2pZksfk%3D\" target=\"_blank\" rel=\"noopener nofollow\"\u003eپلی لیست این دوره در یوتیوب\u003c/a\u003e\u003c/p\u003e"])</script>
+<script>self.__next_f.push([1, "61:[\"فریمورک جنگو\",\"django\",\"جنگو\",\"پایتون\",\"توسعه وب\"]\n59:{\"title\":\"فریمورک جنگو ( پایتون ) را از کجا یاد بگیرم\",\"hash\":\"fm9tswkgfrob\",\"description\":\"فریمورک Django را از کجا یاد بگیریم\",\"slug\":\"فریمورک-جنگو-پایتون-را-از-کجا-یاد-بگیرم-fm9tswkgfrob\",\"image\":\"https://files.virgool.io/upload/users/126163/posts/fm9tswkgfrob/oci7in7zeyqy.jpg\",\"publishedAt\":\"2024-06-05T23:41:33.000000Z\",\"updatedAt\":\"2024-06-05T23:44:15.000000Z\",\"readingTime\":2,\"likesCount\":3,\"liked\":false,\"bookmarked\":false,\"boostUrl\":null,\"features\":\"$5a\",\"url\":\"https://virgool.io/@mahsa.tabrizi92/%D9%81%D8%B1%DB%8C%D9%85%D9%88%D8%B1%DA%A9-%D8%AC%D9%86%DA%AF%D9%88-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%B1%D8%A7-%D8%A7%D8%B2-%DA%A9%D8%AC%D8%A7-%DB%8C%D8%A7%D8%AF-%D8%A8%DA%AF%DB%8C%D8%B1%D9%85-fm9tswkgfrob\",\"user\":\"$5d\",\"publication\":null,\"topics\":\"$5f\",\"commentsCount\":0,\"wordsCount\":332,\"body\":\"$60\",\"tags\":\"$61\",\"hasTOC\":false,\"shortUrl\":\"https://vrgl.ir/oDZ1e\",\"sound\":null}\n62:{\"userCanEditPostPublication\":false,\"premiumRestriction\":true}\n65:[\"slug\",\"%D9%81%D8%B1%DB%8C%D9%85%D9%88%D8%B1%DA%A9-%D8%AC%D9%86%DA%AF%D9%88-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%B1%D8%A7-%D8%A7%D8%B2-%DA%A9%D8%AC%D8%A7-%DB%8C%D8%A7%D8%AF-%D8%A8%DA%AF%DB%8C%D8%B1%D9%85-fm9tswkgfrob\",\"d\"]\n11:[\"$\",\"$L58\",null,{\"data\":{\"postData\":\"$59\",\"meta\":\"$62\"},\"children\":[\"$\",\"$L63\",null,{\"sidebar\":[\"$\",\"$8\",null,{\"fallback\":null,\"children\":[[\"$\",\"$L9\",null,{\"moduleIds\":[\"app/username-route-group/[username]/(single)/[slug]/layout.tsx -\u003e ./Sidebar\"]}],[\"$\",\"$L64\",null,{\"post\":\"$59\"}]]}],\"children\":[\"$\",\"$Lc\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"username-route-group\",\"children\",\"$13\",\"children\",\"(single)\",\"children\",\"$65\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$Ld\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefi"])</script>
+<script>self.__next_f.push([1, "ned\",\"styles\":null}]}]}]\n"])</script>
+<script>self.__next_f.push([1, "1a:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1\"}],[\"$\",\"meta\",\"1\",{\"name\":\"theme-color\",\"content\":\"#107ABE\"}],[\"$\",\"meta\",\"2\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"3\",{\"children\":\"فریمورک جنگو ( پایتون ) را از کجا یاد بگیرم - ویرگول\"}],[\"$\",\"meta\",\"4\",{\"name\":\"description\",\"content\":\"فریمورک Django را از کجا یاد بگیریم\"}],[\"$\",\"meta\",\"5\",{\"name\":\"author\",\"content\":\"mahsa.tabrizi92\"}],[\"$\",\"link\",\"6\",{\"rel\":\"author\",\"href\":\"https://virgool.io/@mahsa.tabrizi92\"}],[\"$\",\"meta\",\"7\",{\"name\":\"author\",\"content\":\"mahsa.tabrizi92\"}],[\"$\",\"link\",\"8\",{\"rel\":\"manifest\",\"href\":\"https://static.virgool.io/manifest.json\",\"crossOrigin\":\"use-credentials\"}],[\"$\",\"meta\",\"9\",{\"name\":\"referrer\",\"content\":\"strict-origin-when-cross-origin\"}],[\"$\",\"meta\",\"10\",{\"name\":\"robots\",\"content\":\"index, follow, max-image-preview:large\"}],[\"$\",\"link\",\"11\",{\"rel\":\"canonical\",\"href\":\"https://virgool.io/@mahsa.tabrizi92/%D9%81%D8%B1%DB%8C%D9%85%D9%88%D8%B1%DA%A9-%D8%AC%D9%86%DA%AF%D9%88-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%B1%D8%A7-%D8%A7%D8%B2-%DA%A9%D8%AC%D8%A7-%DB%8C%D8%A7%D8%AF-%D8%A8%DA%AF%DB%8C%D8%B1%D9%85-fm9tswkgfrob\"}],[\"$\",\"meta\",\"12\",{\"property\":\"og:title\",\"content\":\"فریمورک جنگو ( پایتون ) را از کجا یاد بگیرم - ویرگول\"}],[\"$\",\"meta\",\"13\",{\"property\":\"og:description\",\"content\":\"فریمورک Django را از کجا یاد بگیریم\"}],[\"$\",\"meta\",\"14\",{\"property\":\"og:url\",\"content\":\"https://virgool.io\"}],[\"$\",\"meta\",\"15\",{\"property\":\"og:site_name\",\"content\":\"ویرگول\"}],[\"$\",\"meta\",\"16\",{\"property\":\"og:locale\",\"content\":\"fa\"}],[\"$\",\"meta\",\"17\",{\"property\":\"og:image\",\"content\":\"https://files.virgool.io/upload/users/126163/posts/fm9tswkgfrob/oci7in7zeyqy.jpg\"}],[\"$\",\"meta\",\"18\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"$\",\"meta\",\"19\",{\"property\":\"article:published_time\",\"content\":\"2024-06-05T23:41:33.000000Z\"}],[\"$\",\"meta\",\"20\",{\"property\":\"article:modified_time\",\"content\":\"2024-06-05T23:44:15.000000Z\"}],[\"$\",\"meta\",\"21\",{\"property\":\"article:author\",\"content\":\"mahsa.tabrizi92\"}],[\"$\",\"meta\",\"22\",{\"name\":\"twitter:card\",\"content\":\"summary\"}],[\"$\",\"meta\",\"23\",{\"name\":\"twitter:site\",\"content\":\"@virgool_io\"}],[\"$\",\"meta\",\"24\",{\"name\":\"twitter:title\",\"content\":\"فریمورک جنگو ( پایتون ) را از کجا یاد بگیرم - ویرگول\"}],[\"$\",\"meta\",\"25\",{\"name\":\"twitter:description\",\"content\":\"فریمورک Django را از کجا یاد بگیریم\"}],[\"$\",\"meta\",\"26\",{\"name\":\"twitter:image\",\"content\":\"https://files.virgool.io/upload/users/126163/posts/fm9tswkgfrob/oci7in7zeyqy.jpg\"}],[\"$\",\"link\",\"27\",{\"rel\":\"shortcut icon\",\"href\":\"https://static.virgool.io/images/favicon.png\"}],[\"$\",\"link\",\"28\",{\"rel\":\"icon\",\"href\":\"https://static.virgool.io/images/favicon.png?width=32\"}],[\"$\",\"link\",\"29\",{\"rel\":\"apple-touch-icon\",\"href\":\"https://static.virgool.io/images/favicon.png\"}],[\"$\",\"meta\",\"30\",{\"name\":\"next-size-adjust\"}]]\n"])</script>
+<script>self.__next_f.push([1, "7:null\nf:null\n"])</script>
+</body>
+</html>

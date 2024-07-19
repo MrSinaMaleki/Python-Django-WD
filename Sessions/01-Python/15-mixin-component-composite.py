@@ -58,7 +58,3 @@ class Ak47Sina(Ak47, FastReload):
         super().__init__()
         self.reload_time -= FastReload.reload_time
 
-
-
-
-
