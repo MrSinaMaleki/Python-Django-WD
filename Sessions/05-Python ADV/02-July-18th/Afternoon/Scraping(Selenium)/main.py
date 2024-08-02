@@ -61,3 +61,4 @@ browser.find_element(By.CSS_SELECTOR, '.jss1 div[ref="eBodyViewport"] .ag-center
 
 search_inp.send_keys(user_inp)
 
+
